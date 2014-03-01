@@ -1,4 +1,3 @@
-
 If you want to dump a website for it's word, you can use these codes
 
 1-Dump the site with site_downloader.py
@@ -17,6 +16,7 @@ Note 2:
 Numkbers at the second column at the FinallResult-list.txt is number of the word repetation at the text.
 
 
------------------------------------------------------------------------------------------------------------------
-| All of these python codes are distributed under the terms of the GNU Lesser General Public License (LGPL 2.1)  |
------------------------------------------------------------------------------------------------------------------
+      -------------------------------------------------------------------
+      | All of these python codes are distributed under the terms of     |
+      |            the GNU Lesser General Public License (LGPL 2.1)      |
+      -------------------------------------------------------------------
