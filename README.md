@@ -5,7 +5,7 @@ We collected persian words (verb, noun ,...) for persian spell checker
 
 Files:
 
-1-Persian simple verbes: text format
+1-Persian simple verbes: text format (32,325 verbs)
 
 صرف افعال:
 
