@@ -5,12 +5,17 @@ We collected persian words (verb, noun ,...) for persian spell checker
 
 Files:
 
-1-Persian simple verbes
+1-Persian simple verbes: text format
 
-1-1-excel file
+صرف افعال:
 
-1-2-text file
+مضارع:ساده- استمراری-استمراری منفی--التزامی-التزامی منفی-
 
+فعل نفی- امر
+
+ماضی:ساده-نقلی-بعید- استمراری- استمرای منفی
+
+اسم مصدر
 
 
 2-persian words collected from
