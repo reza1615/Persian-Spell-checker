@@ -29,4 +29,4 @@ Files:
 
 Licence:
 
-All of these works are under GNU Lesser General Public License (LGPL 2.1)
+Distributed under the terms of the GNU Lesser General Public License (LGPL 2.1)
