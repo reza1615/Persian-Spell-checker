@@ -3,9 +3,9 @@ Persian-Spell-checker
 
 We collected persian words (verb, noun ,...) for persian spell checker
 
-Files:
+Collected words by these methods:
 
-1-Persian simple verbes: text format (32,325 verbs)
+1-Persian simple verbes generating based on Persian Grammar : (32,325 verbs)
 
 صرف افعال:
 
@@ -17,12 +17,11 @@ Files:
 
 اسم مصدر
 
+2-persian words collected from web
 
-2-persian words collected from
+2-1-fa.wikipedia (Featured_articles)
 
-2-1-fa.wikipedia
-
-2-2-Persian websites (reviewed the result one by one)
+2-2-Persian News agencies websites (Words which are repeated more than 10 times in 300MB dumped text)
 
 3-Moin dictionay key words
 
