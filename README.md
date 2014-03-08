@@ -1,7 +1,7 @@
 Persian-Spell-checker
 =====================
 
-We collected persian words (verb, noun ,...) for persian spell checker
+We collected persian words' Dictionary (verb, noun ,...) for persian spell checker
 
 Collected words by these methods:
 
@@ -29,3 +29,11 @@ Collected words by these methods:
 Licence:
 
 Distributed under the terms of the GNU Lesser General Public License (LGPL 2.1)
+
+بانک واژگان و کلمات فارسی برگرفته از
+1-وب سایت های معتبر زبان فارسی 
+1-1-کلمات برگرفته از وبگاه خبرگزاری های فارسی و انتخاب کلماتی که بیش از ده بار در متن 300 مگابایتی تکرار شده بودند
+1-2-انتخاب کلمات موجود در مقالات خوب و برگزیده ویکی پدیای فارسی و انتخاب کلماتی که بیش از 10 بار تکرار شده بودند
+2-صرف افعال ساده فارسی بر اسا اصول گرامر زبان فارسی
+3-کلیدواژه های فرهنگ معین
+مجوز استفاده این بانک واژگان GNU Lesser General Public License (LGPL 2.1) می باشد.
