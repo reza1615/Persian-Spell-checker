@@ -6,7 +6,7 @@ We collected persian words' Dictionary (verb, noun ,...) for persian spell check
 Collected words by these methods:
 
 1-Persian simple verbes generating based on Persian Grammar : (32,325 verbs)
-
+<div dir="rtl">
 صرف افعال:
 
 مضارع:ساده- استمراری-استمراری منفی--التزامی-التزامی منفی-
@@ -16,7 +16,7 @@ Collected words by these methods:
 ماضی:ساده-نقلی-بعید- استمراری- استمرای منفی
 
 اسم مصدر
-
+</div>
 2-persian words collected from web
 
 2-1-fa.wikipedia (Featured_articles)
@@ -29,6 +29,8 @@ Collected words by these methods:
 Licence:
 
 Distributed under the terms of the GNU Lesser General Public License (LGPL 2.1)
+
+<div dir="rtl">
 
 بانک واژگان و کلمات فارسی برگرفته از
 
