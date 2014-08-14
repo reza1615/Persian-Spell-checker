@@ -1,4 +1,4 @@
-#American words confused with British ones
+#Wrong dictation for Farsi words
 #(c) 2014 Reza1615
 #Licensed under LGPL
 #The list includes mostly words from https://fa.wikipedia.org/w/index.php?title=ویکی‌پدیا:اشتباه‌یاب/فهرست.py
