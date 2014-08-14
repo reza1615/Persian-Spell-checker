@@ -29,7 +29,7 @@ USA
 -->
 
 <!--suppress CheckTagEmptyBody -->
-
+<!-- refrence https://fa.wikipedia.org/wiki/mediawiki:Gadget-Extra-Editbuttons-Dictionary.js -->
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_1" name="ZwnjCorection1">
  <pattern>
