@@ -63,7 +63,7 @@ USA
           <token regexp='yes'>([\w۰-۹0-9إأةؤورزژاآدذ،؛,\:«»\\\/@#$٪×\*\(\)ـ\-])</token>
           <token>‌</token>
          </pattern>
-         <message>ث</message>
+         <message>نیم‌فاصله نباید بعد از سجاوندی، اعداد و بعضی از حروف فارسی قرار گیرد.</message>
          <example type='incorrect'><marker>و‌</marker>ارد</example>
          <example type='correct'>وارد</example>
         </rule>
