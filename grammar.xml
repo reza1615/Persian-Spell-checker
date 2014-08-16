@@ -33,7 +33,7 @@ USA
     <!-- ====================================================================== -->
     <!-- Possible typos -->
     <!-- ====================================================================== -->
-    <category name="Possible Typo" type="misspelling">
+    <category name="ZWNJ for verbs" type="misspelling">
         <!-- Source https://fa.wikipedia.org/wiki/Mediawiki:Gadget-Extra-Editbuttons-Functions.js -->
         <!-- Farsi rule, 2014-08-15 -->
         <rule id="Complex_Past_Verbs" name="Complex Past Verbs">
@@ -55,6 +55,8 @@ USA
          <example type='incorrect'><marker>می ورزند</marker></example>
          <example type='correct'>می‌ورزند</example>
         </rule>
+    </category>
+    <category name="Incorrect ZWNJ Character" type="misspelling">
         <!-- Farsi rule, 2014-08-15 -->
         <rule id="Bad_ZWNJ_1" name="Bad ZWNJ after wrong characters">
          <pattern>
@@ -75,6 +77,8 @@ USA
          <example type='incorrect'><marker>‌:</marker></example>
          <example type='correct'>:</example>
         </rule>
+    </category>
+    <category name="Complex Words whitch needs ZWNJ" type="misspelling">
         <!-- Source https://fa.wikipedia.org/wiki/Mediawiki:Gadget-Extra-Editbuttons-Dictionary.js -->
         <!-- Farsi rule, 2014-08-15 -->
         <rule id="Complex_Color_Word" name="Complex Color Word">
