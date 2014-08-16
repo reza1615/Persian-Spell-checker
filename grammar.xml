@@ -31,19 +31,9 @@ USA
 <!--suppress CheckTagEmptyBody -->
 <!-- refrence https://fa.wikipedia.org/wiki/mediawiki:Gadget-Extra-Editbuttons-Dictionary.js -->
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_1" name="ZwnjCorection1">
- <pattern>
-  <token regexp='yes'>(طوطی)+</token>
-  <token regexp='yes'>(وار)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>طوطی وار</marker></example>
- <example type='correct'>طوطی‌وار</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_2" name="ZwnjCorection2">
  <pattern>
-  <token regexp='yes'>(خون)+</token>
+  <token>خون</token>
   <token regexp='yes'>(آشام|خوار|بار|گرم|سرد|بها)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -53,8 +43,8 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_3" name="ZwnjCorection3">
  <pattern>
-  <token regexp='yes'>(تفریق|افزایش|کاهش|ویرایش|کوزه|سفال|غارت|چپاول|صنعت|امداد)+</token>
-  <token regexp='yes'>(گر)</token>
+  <token regexp='yes'>(تفریق|افزایش|کاهش|ویرایش|کوزه|سفال|غارت|چپاول|صنعت|امداد)</token>
+  <token>گر</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
  <example type='incorrect'><marker>تفریق گر</marker></example>
@@ -63,7 +53,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_4" name="ZwnjCorection4">
  <pattern>
-  <token regexp='yes'>(دائم)+</token>
+  <token>دائم</token>
   <token regexp='yes'>(الصوم|الخمر)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -71,40 +61,10 @@ USA
  <example type='correct'>دائم‌الصوم</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_5" name="ZwnjCorection5">
- <pattern>
-  <token regexp='yes'>(خاله)+</token>
-  <token regexp='yes'>(زنک)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>خاله زنک</marker></example>
- <example type='correct'>خاله‌زنک</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_6" name="ZwnjCorection6">
- <pattern>
-  <token regexp='yes'>(بقیة)+</token>
-  <token regexp='yes'>(لله)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>بقیة لله</marker></example>
- <example type='correct'>بقیة‌لله</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_7" name="ZwnjCorection7">
- <pattern>
-  <token regexp='yes'>(چیره)+</token>
-  <token regexp='yes'>(دست)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>چیره دست</marker></example>
- <example type='correct'>چیره‌دست</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_8" name="ZwnjCorection8">
  <pattern>
-  <token regexp='yes'>(نام|اسم|سیاهه|خود|فیلم‌نامه|فیلمنامه|کتاب|روان|نسخه)+</token>
-  <token regexp='yes'>(نویس)</token>
+  <token regexp='yes'>(نام|اسم|سیاهه|خود|فیلم‌نامه|فیلمنامه|کتاب|روان|نسخه)</token>
+  <token>نویس</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
  <example type='incorrect'><marker>نام نویس</marker></example>
@@ -113,38 +73,18 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_9" name="ZwnjCorection9">
  <pattern>
-  <token regexp='yes'>(پای|حیرت|نام|زبان|مقام)+</token>
-  <token regexp='yes'>(آور)</token>
+  <token regexp='yes'>(پای|حیرت|نام|زبان|مقام)</token>
+  <token>آور</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
  <example type='incorrect'><marker>پای آور</marker></example>
  <example type='correct'>پای‌آور</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_10" name="ZwnjCorection10">
- <pattern>
-  <token regexp='yes'>(اندود)+</token>
-  <token regexp='yes'>(کاری)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>اندود کاری</marker></example>
- <example type='correct'>اندود‌کاری</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_11" name="ZwnjCorection11">
- <pattern>
-  <token regexp='yes'>(زنگی)+</token>
-  <token regexp='yes'>(مزاج)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>زنگی مزاج</marker></example>
- <example type='correct'>زنگی‌مزاج</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_12" name="ZwnjCorection12">
  <pattern>
-  <token regexp='yes'>(انسان|روان|گیاه|زیست|جانور|نماد|زمین|هوا|ریخت|خدا|جامعه|رفتار|فرهنگ|معرفت|زبان|کتاب|ستاره|اختر|شرق|اسلام|ریشه)+</token>
-  <token regexp='yes'>(شناس)</token>
+  <token regexp='yes'>(انسان|روان|گیاه|زیست|جانور|نماد|زمین|هوا|ریخت|خدا|جامعه|رفتار|فرهنگ|معرفت|زبان|کتاب|ستاره|اختر|شرق|اسلام|ریشه)</token>
+  <token>شناس</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
  <example type='incorrect'><marker>انسان شناس</marker></example>
@@ -153,8 +93,8 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_13" name="ZwnjCorection13">
  <pattern>
-  <token regexp='yes'>(نقاره|چاپ)+</token>
-  <token regexp='yes'>(چی)</token>
+  <token regexp='yes'>(نقاره|چاپ)</token>
+  <token>چی</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
  <example type='incorrect'><marker>نقاره چی</marker></example>
@@ -163,8 +103,8 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_14" name="ZwnjCorection14">
  <pattern>
-  <token regexp='yes'>(دو|سه|چهار)+</token>
-  <token regexp='yes'>(پایه)</token>
+  <token regexp='yes'>(دو|سه|چهار)</token>
+  <token>پایه</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
  <example type='incorrect'><marker>دو پایه</marker></example>
@@ -173,8 +113,8 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_15" name="ZwnjCorection15">
  <pattern>
-  <token regexp='yes'>(کاه|قطره|دله|آفتابه)+</token>
-  <token regexp='yes'>(دزد)</token>
+  <token regexp='yes'>(کاه|قطره|دله|آفتابه)</token>
+  <token>دزد</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
  <example type='incorrect'><marker>کاه دزد</marker></example>
@@ -183,7 +123,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_16" name="ZwnjCorection16">
  <pattern>
-  <token regexp='yes'>(روز)+</token>
+  <token>روز</token>
   <token regexp='yes'>(افزون|انه)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -193,37 +133,17 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_17" name="ZwnjCorection17">
  <pattern>
-  <token regexp='yes'>(طیف|امکان|اقتصاد|نور|زمان|عمق|گرما|فشار|قطر)+</token>
-  <token regexp='yes'>(سنج)</token>
+  <token regexp='yes'>(طیف|امکان|اقتصاد|نور|زمان|عمق|گرما|فشار|قطر)</token>
+  <token>سنج</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
  <example type='incorrect'><marker>طیف سنج</marker></example>
  <example type='correct'>طیف‌سنج</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_18" name="ZwnjCorection18">
- <pattern>
-  <token regexp='yes'>(راست)+</token>
-  <token regexp='yes'>(راستکی)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>راست راستکی</marker></example>
- <example type='correct'>راست‌راستکی</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_19" name="ZwnjCorection19">
- <pattern>
-  <token regexp='yes'>(نسل)+</token>
-  <token regexp='yes'>(کشی)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>نسل کشی</marker></example>
- <example type='correct'>نسل‌کشی</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_20" name="ZwnjCorection20">
  <pattern>
-  <token regexp='yes'>(ابر)+</token>
+  <token>ابر</token>
   <token regexp='yes'>(آلود|قدرت)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -233,7 +153,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_21" name="ZwnjCorection21">
  <pattern>
-  <token regexp='yes'>(تیز)+</token>
+  <token>تیز</token>
   <token regexp='yes'>(پا|دست|دندان|هوش)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -243,7 +163,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_22" name="ZwnjCorection22">
  <pattern>
-  <token regexp='yes'>(ابو)+</token>
+  <token>ابو</token>
   <token regexp='yes'>(العجب|الکلام|الهول)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -251,29 +171,9 @@ USA
  <example type='correct'>ابو‌العجب</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_23" name="ZwnjCorection23">
- <pattern>
-  <token regexp='yes'>(چیز)+</token>
-  <token regexp='yes'>(فهم)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>چیز فهم</marker></example>
- <example type='correct'>چیز‌فهم</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_24" name="ZwnjCorection24">
- <pattern>
-  <token regexp='yes'>(آلاخون)+</token>
-  <token regexp='yes'>(والاخون)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>آلاخون والاخون</marker></example>
- <example type='correct'>آلاخون‌والاخون</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_25" name="ZwnjCorection25">
  <pattern>
-  <token regexp='yes'>(با)+</token>
+  <token>با</token>
   <token regexp='yes'>(پرستیژ|جنبه)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -283,8 +183,8 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_26" name="ZwnjCorection26">
  <pattern>
-  <token regexp='yes'>(خوش|زشت|ترش)+</token>
-  <token regexp='yes'>(رو)</token>
+  <token regexp='yes'>(خوش|زشت|ترش)</token>
+  <token>رو</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
  <example type='incorrect'><marker>خوش رو</marker></example>
@@ -293,7 +193,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_27" name="ZwnjCorection27">
  <pattern>
-  <token regexp='yes'>(شکسته)+</token>
+  <token>شکسته</token>
   <token regexp='yes'>(ناخن|مزاج|دل)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -303,37 +203,17 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_28" name="ZwnjCorection28">
  <pattern>
-  <token regexp='yes'>(چادر|تخت|زاغه|شهر|ته|آب|کاخ|پایتخت)+</token>
-  <token regexp='yes'>(نشین)</token>
+  <token regexp='yes'>(چادر|تخت|زاغه|شهر|ته|آب|کاخ|پایتخت)</token>
+  <token>نشین</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
  <example type='incorrect'><marker>چادر نشین</marker></example>
  <example type='correct'>چادر‌نشین</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_29" name="ZwnjCorection29">
- <pattern>
-  <token regexp='yes'>(پراگنده)+</token>
-  <token regexp='yes'>(دل)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>پراگنده دل</marker></example>
- <example type='correct'>پراگنده‌دل</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_30" name="ZwnjCorection30">
- <pattern>
-  <token regexp='yes'>(لحاف)+</token>
-  <token regexp='yes'>(کش)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>لحاف کش</marker></example>
- <example type='correct'>لحاف‌کش</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_31" name="ZwnjCorection31">
  <pattern>
-  <token regexp='yes'>(همه)+</token>
+  <token>همه</token>
   <token regexp='yes'>(کاره|جانبه)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -343,37 +223,17 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_32" name="ZwnjCorection32">
  <pattern>
-  <token regexp='yes'>(پایین|بالا|عقب|جلو|کنار|ساده|بزرگ|کوچک|عمیق|رقیق|ضخیم|فهیم|گسترده)+</token>
-  <token regexp='yes'>(تر)</token>
+  <token regexp='yes'>(پایین|بالا|عقب|جلو|کنار|ساده|بزرگ|کوچک|عمیق|رقیق|ضخیم|فهیم|گسترده)</token>
+  <token>تر</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
  <example type='incorrect'><marker>پایین تر</marker></example>
  <example type='correct'>پایین‌تر</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_33" name="ZwnjCorection33">
- <pattern>
-  <token regexp='yes'>(بن)+</token>
-  <token regexp='yes'>(بست)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>بن بست</marker></example>
- <example type='correct'>بن‌بست</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_34" name="ZwnjCorection34">
- <pattern>
-  <token regexp='yes'>(به)+</token>
-  <token regexp='yes'>(غایت)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>به غایت</marker></example>
- <example type='correct'>به‌غایت</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_35" name="ZwnjCorection35">
  <pattern>
-  <token regexp='yes'>(می)+</token>
+  <token>می</token>
   <token regexp='yes'>(دانستم|دانستی|دانستند|دانستیم|دانستید|دانستند|دانم|داند|دانیم|دانید|دانند)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -383,7 +243,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_36" name="ZwnjCorection36">
  <pattern>
-  <token regexp='yes'>(گل)+</token>
+  <token>گل</token>
   <token regexp='yes'>(چهره|ریزان|ریز|گون|باران)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -393,7 +253,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_37" name="ZwnjCorection37">
  <pattern>
-  <token regexp='yes'>(بی)+</token>
+  <token>بی</token>
   <token regexp='yes'>(نهایت|انتها|مقدار|کار|جنبه|مزه|بو|ارزش|مزد|بها|چیز|دین|لیاقت|اعتماد|اراده|ثبات|دست و پا|وجدان|روح|رنگ|پول|حس|دریغ|امنیت|اختیار|وجدان|روح|رنگ|پول|جنبه|پناه|مایه|رویه|مورد|نیاز|شرف|معرفت|نزاکت|مبالات|شعور|مصرف|پایه|احترام|آلایش|معنی)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -403,7 +263,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_38" name="ZwnjCorection38">
  <pattern>
-  <token regexp='yes'>(ذوی)+</token>
+  <token>ذوی</token>
   <token regexp='yes'>(القربی|الاوتار|العقول)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -411,19 +271,9 @@ USA
  <example type='correct'>ذوی‌القربی</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_39" name="ZwnjCorection39">
- <pattern>
-  <token regexp='yes'>(جهان)+</token>
-  <token regexp='yes'>(بخش)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>جهان بخش</marker></example>
- <example type='correct'>جهان‌بخش</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_40" name="ZwnjCorection40">
  <pattern>
-  <token regexp='yes'>(سیاه)+</token>
+  <token>سیاه</token>
   <token regexp='yes'>(مست|دست|رو|سوخته|پستان|گلیم|چرده|دل|سر|بند)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -433,8 +283,8 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_41" name="ZwnjCorection41">
  <pattern>
-  <token regexp='yes'>(ذبیح|برات|کلیم|خلیل|جار|لطف|شکر|رحمت|امان|اسد|روح|ولی|نور|حبیب)+</token>
-  <token regexp='yes'>(الله)</token>
+  <token regexp='yes'>(ذبیح|برات|کلیم|خلیل|جار|لطف|شکر|رحمت|امان|اسد|روح|ولی|نور|حبیب)</token>
+  <token>الله</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
  <example type='incorrect'><marker>ذبیح الله</marker></example>
@@ -443,7 +293,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_42" name="ZwnjCorection42">
  <pattern>
-  <token regexp='yes'>(خنده)+</token>
+  <token>خنده</token>
   <token regexp='yes'>(رو|خریش)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -453,7 +303,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_43" name="ZwnjCorection43">
  <pattern>
-  <token regexp='yes'>(هیچ)+</token>
+  <token>هیچ</token>
   <token regexp='yes'>(کاره|گاه)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -463,8 +313,8 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_44" name="ZwnjCorection44">
  <pattern>
-  <token regexp='yes'>(تصویب|کار|اجازه|تکذیب|شب|پایان|اساس)+</token>
-  <token regexp='yes'>(نامه)</token>
+  <token regexp='yes'>(تصویب|کار|اجازه|تکذیب|شب|پایان|اساس)</token>
+  <token>نامه</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
  <example type='incorrect'><marker>تصویب نامه</marker></example>
@@ -473,7 +323,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_45" name="ZwnjCorection45">
  <pattern>
-  <token regexp='yes'>(شوخ)+</token>
+  <token>شوخ</token>
   <token regexp='yes'>(طبع|رو|دیده|چشم)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -483,7 +333,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_46" name="ZwnjCorection46">
  <pattern>
-  <token regexp='yes'>(هم)+</token>
+  <token>هم</token>
   <token regexp='yes'>(اندیشی|ارزی|راهی|سانی|رزم|خانه|نشین|سان|بند|مرز|سایه|مسلک|زمان|معنی|گام)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -491,19 +341,9 @@ USA
  <example type='correct'>هم‌اندیشی</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_47" name="ZwnjCorection47">
- <pattern>
-  <token regexp='yes'>(مشغول)+</token>
-  <token regexp='yes'>(الذمه)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>مشغول الذمه</marker></example>
- <example type='correct'>مشغول‌الذمه</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_48" name="ZwnjCorection48">
  <pattern>
-  <token regexp='yes'>(چل)+</token>
+  <token>چل</token>
   <token regexp='yes'>(کلید|تاج|تکه)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -513,7 +353,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_49" name="ZwnjCorection49">
  <pattern>
-  <token regexp='yes'>(بد)+</token>
+  <token>بد</token>
   <token regexp='yes'>(انجام|پیله|خوی|دل|زهره|عنق|قلق|کاره|گمان|گوهر|لگام|مسب|مست|مظنه|منظر|مهر|نام|نسل|نما)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -521,20 +361,10 @@ USA
  <example type='correct'>بد‌انجام</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_50" name="ZwnjCorection50">
- <pattern>
-  <token regexp='yes'>(آسیمه)+</token>
-  <token regexp='yes'>(سر)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>آسیمه سر</marker></example>
- <example type='correct'>آسیمه‌سر</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_51" name="ZwnjCorection51">
  <pattern>
-  <token regexp='yes'>(زود|آرام|آب|کله|آش|بخار)+</token>
-  <token regexp='yes'>(پز)</token>
+  <token regexp='yes'>(زود|آرام|آب|کله|آش|بخار)</token>
+  <token>پز</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
  <example type='incorrect'><marker>زود پز</marker></example>
@@ -543,7 +373,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_52" name="ZwnjCorection52">
  <pattern>
-  <token regexp='yes'>(حق)+</token>
+  <token>حق</token>
   <token regexp='yes'>(السکوت|التدریس|الزحمه)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -551,19 +381,9 @@ USA
  <example type='correct'>حق‌السکوت</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_53" name="ZwnjCorection53">
- <pattern>
-  <token regexp='yes'>(دندان)+</token>
-  <token regexp='yes'>(گرد)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>دندان گرد</marker></example>
- <example type='correct'>دندان‌گرد</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_54" name="ZwnjCorection54">
  <pattern>
-  <token regexp='yes'>(آزرده)+</token>
+  <token>آزرده</token>
   <token regexp='yes'>(دل|جان)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -573,7 +393,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_55" name="ZwnjCorection55">
  <pattern>
-  <token regexp='yes'>(آسوده)+</token>
+  <token>آسوده</token>
   <token regexp='yes'>(دل|خاطر|وجدان)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -581,19 +401,9 @@ USA
  <example type='correct'>آسوده‌دل</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_56" name="ZwnjCorection56">
- <pattern>
-  <token regexp='yes'>(کشتی)+</token>
-  <token regexp='yes'>(گیر)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>کشتی گیر</marker></example>
- <example type='correct'>کشتی‌گیر</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_57" name="ZwnjCorection57">
  <pattern>
-  <token regexp='yes'>(ذی)+</token>
+  <token>ذی</token>
   <token regexp='yes'>(نفع|صلاحیت|فقار|ربط|قیمت|شعور|علاقه|حیات|فن|روح|عقل|حق)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -603,7 +413,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_58" name="ZwnjCorection58">
  <pattern>
-  <token regexp='yes'>(فوق)+</token>
+  <token>فوق</token>
   <token regexp='yes'>(الذکر|العاده)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -613,7 +423,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_59" name="ZwnjCorection59">
  <pattern>
-  <token regexp='yes'>(سریع)+</token>
+  <token>سریع</token>
   <token regexp='yes'>(السیر|الانتقال)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -623,7 +433,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_60" name="ZwnjCorection60">
  <pattern>
-  <token regexp='yes'>(شهر)+</token>
+  <token>شهر</token>
   <token regexp='yes'>(بانو|زاد|ناز|نوش)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -631,29 +441,9 @@ USA
  <example type='correct'>شهر‌بانو</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_61" name="ZwnjCorection61">
- <pattern>
-  <token regexp='yes'>(رسم)+</token>
-  <token regexp='yes'>(الخط)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>رسم الخط</marker></example>
- <example type='correct'>رسم‌الخط</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_62" name="ZwnjCorection62">
- <pattern>
-  <token regexp='yes'>(تنگا)+</token>
-  <token regexp='yes'>(تنگ)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>تنگا تنگ</marker></example>
- <example type='correct'>تنگا‌تنگ</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_63" name="ZwnjCorection63">
  <pattern>
-  <token regexp='yes'>(تازه)+</token>
+  <token>تازه</token>
   <token regexp='yes'>(وارد|خط|نفس|کار)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -663,27 +453,17 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_64" name="ZwnjCorection64">
  <pattern>
-  <token regexp='yes'>(سنگ|ریز|دانه|تک|یک|بزرگ|رنگ)+</token>
-  <token regexp='yes'>(دانه)</token>
+  <token regexp='yes'>(سنگ|ریز|دانه|تک|یک|بزرگ|رنگ)</token>
+  <token>دانه</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
  <example type='incorrect'><marker>سنگ دانه</marker></example>
  <example type='correct'>سنگ‌دانه</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_65" name="ZwnjCorection65">
- <pattern>
-  <token regexp='yes'>(درشت)+</token>
-  <token regexp='yes'>(خو)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>درشت خو</marker></example>
- <example type='correct'>درشت‌خو</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_66" name="ZwnjCorection66">
  <pattern>
-  <token regexp='yes'>(آشفته)+</token>
+  <token>آشفته</token>
   <token regexp='yes'>(سامان|دل|دماغ|روز)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -693,7 +473,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_67" name="ZwnjCorection67">
  <pattern>
-  <token regexp='yes'>(خوش)+</token>
+  <token>خوش</token>
   <token regexp='yes'>(یمن|خوراک|خیم|رکاب|حال|مزه|حساب)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -701,30 +481,10 @@ USA
  <example type='correct'>خوش‌یمن</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_68" name="ZwnjCorection68">
- <pattern>
-  <token regexp='yes'>(صد)+</token>
-  <token regexp='yes'>(شاخ)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>صد شاخ</marker></example>
- <example type='correct'>صد‌شاخ</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_69" name="ZwnjCorection69">
- <pattern>
-  <token regexp='yes'>(تیره)+</token>
-  <token regexp='yes'>(روز)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>تیره روز</marker></example>
- <example type='correct'>تیره‌روز</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_70" name="ZwnjCorection70">
  <pattern>
-  <token regexp='yes'>(بهره|نتیجه|فاصله|اندازه|مچ|رونق|دست|پا|پاچه)+</token>
-  <token regexp='yes'>(گیر)</token>
+  <token regexp='yes'>(بهره|نتیجه|فاصله|اندازه|مچ|رونق|دست|پا|پاچه)</token>
+  <token>گیر</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
  <example type='incorrect'><marker>بهره گیر</marker></example>
@@ -733,7 +493,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_71" name="ZwnjCorection71">
  <pattern>
-  <token regexp='yes'>(پاک)+</token>
+  <token>پاک</token>
   <token regexp='yes'>(نفس|سرشت|دامن|سیرت|منش|بخش|دیده)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -743,8 +503,8 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_72" name="ZwnjCorection72">
  <pattern>
-  <token regexp='yes'>(حمله|بهره|پیشه|شعله|طاعت|طالع)+</token>
-  <token regexp='yes'>(ور)</token>
+  <token regexp='yes'>(حمله|بهره|پیشه|شعله|طاعت|طالع)</token>
+  <token>ور</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
  <example type='incorrect'><marker>حمله ور</marker></example>
@@ -753,8 +513,8 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_73" name="ZwnjCorection73">
  <pattern>
-  <token regexp='yes'>(حرام|حلال)+</token>
-  <token regexp='yes'>(زاده)</token>
+  <token regexp='yes'>(حرام|حلال)</token>
+  <token>زاده</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
  <example type='incorrect'><marker>حرام زاده</marker></example>
@@ -763,7 +523,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_74" name="ZwnjCorection74">
  <pattern>
-  <token regexp='yes'>(خام)+</token>
+  <token>خام</token>
   <token regexp='yes'>(طمع|طبع)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -773,7 +533,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_75" name="ZwnjCorection75">
  <pattern>
-  <token regexp='yes'>(شاد)+</token>
+  <token>شاد</token>
   <token regexp='yes'>(روان|کام|مان|مانه)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -783,8 +543,8 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_76" name="ZwnjCorection76">
  <pattern>
-  <token regexp='yes'>(دل|آهن)+</token>
-  <token regexp='yes'>(ربا)</token>
+  <token regexp='yes'>(دل|آهن)</token>
+  <token>ربا</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
  <example type='incorrect'><marker>دل ربا</marker></example>
@@ -793,7 +553,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_77" name="ZwnjCorection77">
  <pattern>
-  <token regexp='yes'>(سست)+</token>
+  <token>سست</token>
   <token regexp='yes'>(زخم|رگ|ریش|عنصر)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -801,19 +561,9 @@ USA
  <example type='correct'>سست‌زخم</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_78" name="ZwnjCorection78">
- <pattern>
-  <token regexp='yes'>(قایم)+</token>
-  <token regexp='yes'>(الزاویه)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>قایم الزاویه</marker></example>
- <example type='correct'>قایم‌الزاویه</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_79" name="ZwnjCorection79">
  <pattern>
-  <token regexp='yes'>(رئیس)+</token>
+  <token regexp='yes'>رئیس</token>
   <token regexp='yes'>(الوزراء|الرؤسا)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -823,7 +573,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_80" name="ZwnjCorection80">
  <pattern>
-  <token regexp='yes'>(سبک)+</token>
+  <token>سبک</token>
   <token regexp='yes'>(مغز|سنگ|عنان|روح|لقا|سایه|سنگین|دست)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -833,7 +583,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_81" name="ZwnjCorection81">
  <pattern>
-  <token regexp='yes'>(آتش)+</token>
+  <token>آتش</token>
   <token regexp='yes'>(بس|نشان|سوزی)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -843,8 +593,8 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_82" name="ZwnjCorection82">
  <pattern>
-  <token regexp='yes'>(سگ|مرغ|خوک)+</token>
-  <token regexp='yes'>(دانی)</token>
+  <token regexp='yes'>(سگ|مرغ|خوک)</token>
+  <token>دانی</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
  <example type='incorrect'><marker>سگ دانی</marker></example>
@@ -853,7 +603,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_83" name="ZwnjCorection83">
  <pattern>
-  <token regexp='yes'>(لازم)+</token>
+  <token>لازم</token>
   <token regexp='yes'>(الوصول|الاجراء)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -861,19 +611,9 @@ USA
  <example type='correct'>لازم‌الوصول</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_84" name="ZwnjCorection84">
- <pattern>
-  <token regexp='yes'>(شکم)+</token>
-  <token regexp='yes'>(بند)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>شکم بند</marker></example>
- <example type='correct'>شکم‌بند</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_85" name="ZwnjCorection85">
  <pattern>
-  <token regexp='yes'>(نیم)+</token>
+  <token>نیم</token>
   <token regexp='yes'>(ته|بند|بسمل)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -881,39 +621,9 @@ USA
  <example type='correct'>نیم‌ته</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_86" name="ZwnjCorection86">
- <pattern>
-  <token regexp='yes'>(زود)+</token>
-  <token regexp='yes'>(باور)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>زود باور</marker></example>
- <example type='correct'>زود‌باور</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_87" name="ZwnjCorection87">
- <pattern>
-  <token regexp='yes'>(حرف)+</token>
-  <token regexp='yes'>(شنو)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>حرف شنو</marker></example>
- <example type='correct'>حرف‌شنو</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_88" name="ZwnjCorection88">
- <pattern>
-  <token regexp='yes'>(عام)+</token>
-  <token regexp='yes'>(المنفعه)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>عام المنفعه</marker></example>
- <example type='correct'>عام‌المنفعه</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_89" name="ZwnjCorection89">
  <pattern>
-  <token regexp='yes'>(پایه|بنیان)+</token>
+  <token>(پایه|بنیان)</token>
   <token regexp='yes'>(گذار|گذاری)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -923,8 +633,8 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_90" name="ZwnjCorection90">
  <pattern>
-  <token regexp='yes'>(مه|پیمان|یخ|سنگ|بت|صف)+</token>
-  <token regexp='yes'>(شکن)</token>
+  <token regexp='yes'>(مه|پیمان|یخ|سنگ|بت|صف)</token>
+  <token>شکن</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
  <example type='incorrect'><marker>مه شکن</marker></example>
@@ -933,7 +643,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_91" name="ZwnjCorection91">
  <pattern>
-  <token regexp='yes'>(بزرگ)+</token>
+  <token>بزرگ</token>
   <token regexp='yes'>(سال|مرد)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -941,20 +651,10 @@ USA
  <example type='correct'>بزرگ‌سال</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_92" name="ZwnjCorection92">
- <pattern>
-  <token regexp='yes'>(صف)+</token>
-  <token regexp='yes'>(آوار)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>صف آوار</marker></example>
- <example type='correct'>صف‌آوار</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_93" name="ZwnjCorection93">
  <pattern>
-  <token regexp='yes'>(ریش)+</token>
-  <token regexp='yes'>(ریش)</token>
+  <token>(ریش)</token>
+  <token regexp='yes'>(ریش|سفید)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
  <example type='incorrect'><marker>ریش ریش</marker></example>
@@ -963,7 +663,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_94" name="ZwnjCorection94">
  <pattern>
-  <token regexp='yes'>(معلوم)+</token>
+  <token>معلوم</token>
   <token regexp='yes'>(الحال|الهویه)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -973,7 +673,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_95" name="ZwnjCorection95">
  <pattern>
-  <token regexp='yes'>(کهن)+</token>
+  <token>کهن</token>
   <token regexp='yes'>(سال|دیار)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -981,30 +681,10 @@ USA
  <example type='correct'>کهن‌سال</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_96" name="ZwnjCorection96">
- <pattern>
-  <token regexp='yes'>(شوی)+</token>
-  <token regexp='yes'>(دیده)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>شوی دیده</marker></example>
- <example type='correct'>شوی‌دیده</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_97" name="ZwnjCorection97">
- <pattern>
-  <token regexp='yes'>(رویین)+</token>
-  <token regexp='yes'>(تن)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>رویین تن</marker></example>
- <example type='correct'>رویین‌تن</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_98" name="ZwnjCorection98">
  <pattern>
-  <token regexp='yes'>(مهر|روح|دل|شوق|طرب|نشاط|شور)+</token>
-  <token regexp='yes'>(انگیز)</token>
+  <token>(مهر|روح|دل|شوق|طرب|نشاط|شور)</token>
+  <token regexp='yes'>انگیز</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
  <example type='incorrect'><marker>مهر انگیز</marker></example>
@@ -1013,7 +693,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_99" name="ZwnjCorection99">
  <pattern>
-  <token regexp='yes'>(پر)+</token>
+  <token>پر</token>
   <token regexp='yes'>(رو|شور|مایه|منش|هنر)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -1023,7 +703,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_100" name="ZwnjCorection100">
  <pattern>
-  <token regexp='yes'>(رقیق)+</token>
+  <token>رقیق</token>
   <token regexp='yes'>(القلب|الفکر)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -1031,19 +711,9 @@ USA
  <example type='correct'>رقیق‌القلب</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_101" name="ZwnjCorection101">
- <pattern>
-  <token regexp='yes'>(خرد)+</token>
-  <token regexp='yes'>(سال)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>خرد سال</marker></example>
- <example type='correct'>خرد‌سال</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_102" name="ZwnjCorection102">
  <pattern>
-  <token regexp='yes'>(اجاق)+</token>
+  <token>اجاق</token>
   <token regexp='yes'>(کور|زاده|سوز)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -1051,59 +721,9 @@ USA
  <example type='correct'>اجاق‌کور</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_103" name="ZwnjCorection103">
- <pattern>
-  <token regexp='yes'>(یکتا)+</token>
-  <token regexp='yes'>(پرست)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>یکتا پرست</marker></example>
- <example type='correct'>یکتا‌پرست</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_104" name="ZwnjCorection104">
- <pattern>
-  <token regexp='yes'>(عیال)+</token>
-  <token regexp='yes'>(وار)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>عیال وار</marker></example>
- <example type='correct'>عیال‌وار</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_105" name="ZwnjCorection105">
- <pattern>
-  <token regexp='yes'>(طویل)+</token>
-  <token regexp='yes'>(المدت)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>طویل المدت</marker></example>
- <example type='correct'>طویل‌المدت</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_106" name="ZwnjCorection106">
- <pattern>
-  <token regexp='yes'>(ملی)+</token>
-  <token regexp='yes'>(گرا)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>ملی گرا</marker></example>
- <example type='correct'>ملی‌گرا</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_107" name="ZwnjCorection107">
- <pattern>
-  <token regexp='yes'>(تاریک)+</token>
-  <token regexp='yes'>(دل)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>تاریک دل</marker></example>
- <example type='correct'>تاریک‌دل</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_108" name="ZwnjCorection108">
  <pattern>
-  <token regexp='yes'>(نا)+</token>
+  <token>نا</token>
   <token regexp='yes'>(جوانمرد|خودآگاه|نجیب)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -1111,39 +731,9 @@ USA
  <example type='correct'>نا‌جوانمرد</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_109" name="ZwnjCorection109">
- <pattern>
-  <token regexp='yes'>(هرکن)+</token>
-  <token regexp='yes'>(پرکن)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>هرکن پرکن</marker></example>
- <example type='correct'>هرکن‌پرکن</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_110" name="ZwnjCorection110">
- <pattern>
-  <token regexp='yes'>(جرعه)+</token>
-  <token regexp='yes'>(کش)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>جرعه کش</marker></example>
- <example type='correct'>جرعه‌کش</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_111" name="ZwnjCorection111">
- <pattern>
-  <token regexp='yes'>(نظریه)+</token>
-  <token regexp='yes'>(پرداز)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>نظریه پرداز</marker></example>
- <example type='correct'>نظریه‌پرداز</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_112" name="ZwnjCorection112">
  <pattern>
-  <token regexp='yes'>(گربه)+</token>
+  <token>گربه</token>
   <token regexp='yes'>(گون|کوره)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -1151,19 +741,9 @@ USA
  <example type='correct'>گربه‌گون</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_113" name="ZwnjCorection113">
- <pattern>
-  <token regexp='yes'>(رحمت)+</token>
-  <token regexp='yes'>(العالمین)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>رحمت العالمین</marker></example>
- <example type='correct'>رحمت‌العالمین</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_114" name="ZwnjCorection114">
  <pattern>
-  <token regexp='yes'>(پالان)+</token>
+  <token>پالان</token>
   <token regexp='yes'>(ساییده|دوز)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -1173,7 +753,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_115" name="ZwnjCorection115">
  <pattern>
-  <token regexp='yes'>(ذو)+</token>
+  <token>ذو</token>
   <token regexp='yes'>(الجلال|العرش|القدر|القوافی|اللسانین|المجد|المکارم|المن|المناقب|المنن|النور|الوجهین|جسدین)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -1183,37 +763,17 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_116" name="ZwnjCorection116">
  <pattern>
-  <token regexp='yes'>(بد|خوش|آدمی)+</token>
-  <token regexp='yes'>(سیرت)</token>
+  <token regexp='yes'>(بد|خوش|آدمی)</token>
+  <token>سیرت</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
  <example type='incorrect'><marker>بد سیرت</marker></example>
  <example type='correct'>بد‌سیرت</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_117" name="ZwnjCorection117">
- <pattern>
-  <token regexp='yes'>(گلوله)+</token>
-  <token regexp='yes'>(باران)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>گلوله باران</marker></example>
- <example type='correct'>گلوله‌باران</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_118" name="ZwnjCorection118">
- <pattern>
-  <token regexp='yes'>(قبة)+</token>
-  <token regexp='yes'>(الخضرا)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>قبة الخضرا</marker></example>
- <example type='correct'>قبة‌الخضرا</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_119" name="ZwnjCorection119">
  <pattern>
-  <token regexp='yes'>(یکه)+</token>
+  <token>یکه</token>
   <token regexp='yes'>(شناس|بزن|سوار|تاز)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -1221,19 +781,9 @@ USA
  <example type='correct'>یکه‌شناس</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_120" name="ZwnjCorection120">
- <pattern>
-  <token regexp='yes'>(پاس)+</token>
-  <token regexp='yes'>(بخش)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>پاس بخش</marker></example>
- <example type='correct'>پاس‌بخش</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_121" name="ZwnjCorection121">
  <pattern>
-  <token regexp='yes'>(فارغ)+</token>
+  <token>فارغ</token>
   <token regexp='yes'>(الاکناف|التحصیل|الحال)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -1243,7 +793,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_122" name="ZwnjCorection122">
  <pattern>
-  <token regexp='yes'>(نازک)+</token>
+  <token>نازک</token>
   <token regexp='yes'>(نی|دل|نارنجی|خیال)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -1251,19 +801,9 @@ USA
  <example type='correct'>نازک‌نی</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_123" name="ZwnjCorection123">
- <pattern>
-  <token regexp='yes'>(شبانه)+</token>
-  <token regexp='yes'>(روزی)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>شبانه روزی</marker></example>
- <example type='correct'>شبانه‌روزی</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_124" name="ZwnjCorection124">
  <pattern>
-  <token regexp='yes'>(باز)+</token>
+  <token>باز</token>
   <token regexp='yes'>(خرید|خواست|داشت|دید|گشت|یافت)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -1273,7 +813,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_125" name="ZwnjCorection125">
  <pattern>
-  <token regexp='yes'>(پری)+</token>
+  <token>پری</token>
   <token regexp='yes'>(نژاد|چهر|بند)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -1281,19 +821,9 @@ USA
  <example type='correct'>پری‌نژاد</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_126" name="ZwnjCorection126">
- <pattern>
-  <token regexp='yes'>(بار)+</token>
-  <token regexp='yes'>(خاطر)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>بار خاطر</marker></example>
- <example type='correct'>بار‌خاطر</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_127" name="ZwnjCorection127">
  <pattern>
-  <token regexp='yes'>(نیک)+</token>
+  <token>نیک</token>
   <token regexp='yes'>(روز|انجام|پی|اختر|بخت)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -1303,7 +833,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_128" name="ZwnjCorection128">
  <pattern>
-  <token regexp='yes'>(باد)+</token>
+  <token>باد</token>
   <token regexp='yes'>(نشسته|گرفته)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -1313,7 +843,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_129" name="ZwnjCorection129">
  <pattern>
-  <token regexp='yes'>(رنگ)+</token>
+  <token>رنگ</token>
   <token regexp='yes'>(وارنگ)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -1323,8 +853,8 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_130" name="ZwnjCorection130">
  <pattern>
-  <token regexp='yes'>(هنر|عاشق)+</token>
-  <token regexp='yes'>(پیشه)</token>
+  <token regexp='yes'>(هنر|عاشق)</token>
+  <token>پیشه</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
  <example type='incorrect'><marker>هنر پیشه</marker></example>
@@ -1333,7 +863,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_131" name="ZwnjCorection131">
  <pattern>
-  <token regexp='yes'>(باب)+</token>
+  <token>باب</token>
   <token regexp='yes'>(الحوائج)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -1343,7 +873,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_132" name="ZwnjCorection132">
  <pattern>
-  <token regexp='yes'>(حاضر)+</token>
+  <token>حاضر</token>
   <token regexp='yes'>(جواب|یراق)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -1353,7 +883,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_133" name="ZwnjCorection133">
  <pattern>
-  <token regexp='yes'>(جامع)+</token>
+  <token>جامع</token>
   <token regexp='yes'>(الشرایط|الاطراف)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -1363,7 +893,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_134" name="ZwnjCorection134">
  <pattern>
-  <token regexp='yes'>(نگون)+</token>
+  <token>نگون</token>
   <token regexp='yes'>(طشت|بخت)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -1371,20 +901,10 @@ USA
  <example type='correct'>نگون‌طشت</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_135" name="ZwnjCorection135">
- <pattern>
-  <token regexp='yes'>(بلند)+</token>
-  <token regexp='yes'>(آوازه)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>بلند آوازه</marker></example>
- <example type='correct'>بلند‌آوازه</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_136" name="ZwnjCorection136">
  <pattern>
-  <token regexp='yes'>(طبقه|زمان)+</token>
-  <token regexp='yes'>(بندی)</token>
+  <token regexp='yes'>(طبقه|زمان)</token>
+  <token>بندی</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
  <example type='incorrect'><marker>طبقه بندی</marker></example>
@@ -1393,7 +913,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_137" name="ZwnjCorection137">
  <pattern>
-  <token regexp='yes'>(چرب)+</token>
+  <token>چرب</token>
   <token regexp='yes'>(زبان|ترازو)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -1403,8 +923,8 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_138" name="ZwnjCorection138">
  <pattern>
-  <token regexp='yes'>(زبانه|دل|زمین|ماشین|فرمان|کمان|کنگره|گوشه|دامنه|خانه|پول|مقام|آیینه|آئینه)+</token>
-  <token regexp='yes'>(دار)</token>
+  <token regexp='yes'>(زبانه|دل|زمین|ماشین|فرمان|کمان|کنگره|گوشه|دامنه|خانه|پول|مقام|آیینه|آئینه)</token>
+  <token>دار</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
  <example type='incorrect'><marker>زبانه دار</marker></example>
@@ -1413,7 +933,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_139" name="ZwnjCorection139">
  <pattern>
-  <token regexp='yes'>(تند)+</token>
+  <token>تند</token>
   <token regexp='yes'>(خو|خوی)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -1423,7 +943,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_140" name="ZwnjCorection140">
  <pattern>
-  <token regexp='yes'>(چابک)+</token>
+  <token>چابک</token>
   <token regexp='yes'>(سوار|دست)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -1431,29 +951,9 @@ USA
  <example type='correct'>چابک‌سوار</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_141" name="ZwnjCorection141">
- <pattern>
-  <token regexp='yes'>(لسان)+</token>
-  <token regexp='yes'>(الغیب)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>لسان الغیب</marker></example>
- <example type='correct'>لسان‌الغیب</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_142" name="ZwnjCorection142">
- <pattern>
-  <token regexp='yes'>(کلاه)+</token>
-  <token regexp='yes'>(گوشه)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>کلاه گوشه</marker></example>
- <example type='correct'>کلاه‌گوشه</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_143" name="ZwnjCorection143">
  <pattern>
-  <token regexp='yes'>(خود|درون|دل|پیه|دل)+</token>
+  <token regexp='yes'>(خود|درون|دل|پیه|دل)</token>
   <token regexp='yes'>(سوز|خواه)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -1463,7 +963,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_144" name="ZwnjCorection144">
  <pattern>
-  <token regexp='yes'>(معظم)+</token>
+  <token>معظم</token>
   <token regexp='yes'>(له|القدر)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -1471,39 +971,9 @@ USA
  <example type='correct'>معظم‌له</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_145" name="ZwnjCorection145">
- <pattern>
-  <token regexp='yes'>(قدسی)+</token>
-  <token regexp='yes'>(مآب)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>قدسی مآب</marker></example>
- <example type='correct'>قدسی‌مآب</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_146" name="ZwnjCorection146">
- <pattern>
-  <token regexp='yes'>(ناخن)+</token>
-  <token regexp='yes'>(خشک)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>ناخن خشک</marker></example>
- <example type='correct'>ناخن‌خشک</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_147" name="ZwnjCorection147">
- <pattern>
-  <token regexp='yes'>(نق)+</token>
-  <token regexp='yes'>(نقو)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>نق نقو</marker></example>
- <example type='correct'>نق‌نقو</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_148" name="ZwnjCorection148">
  <pattern>
-  <token regexp='yes'>(غیر)+</token>
+  <token>غیر</token>
   <token regexp='yes'>(قابل قبول|متعهد)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -1513,7 +983,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_149" name="ZwnjCorection149">
  <pattern>
-  <token regexp='yes'>(پیش)+</token>
+  <token>پیش</token>
   <token regexp='yes'>(مرگ|کسوت)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -1521,29 +991,9 @@ USA
  <example type='correct'>پیش‌مرگ</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_150" name="ZwnjCorection150">
- <pattern>
-  <token regexp='yes'>(دایم)+</token>
-  <token regexp='yes'>(الخمر)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>دایم الخمر</marker></example>
- <example type='correct'>دایم‌الخمر</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_151" name="ZwnjCorection151">
- <pattern>
-  <token regexp='yes'>(راه)+</token>
-  <token regexp='yes'>(اندازی)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>راه اندازی</marker></example>
- <example type='correct'>راه‌اندازی</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_152" name="ZwnjCorection152">
  <pattern>
-  <token regexp='yes'>(رو)+</token>
+  <token>رو</token>
   <token regexp='yes'>(سفید|سیاه|باز)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -1551,19 +1001,9 @@ USA
  <example type='correct'>رو‌سفید</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_153" name="ZwnjCorection153">
- <pattern>
-  <token regexp='yes'>(ندید)+</token>
-  <token regexp='yes'>(بدید)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>ندید بدید</marker></example>
- <example type='correct'>ندید‌بدید</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_154" name="ZwnjCorection154">
  <pattern>
-  <token regexp='yes'>(بزن)+</token>
+  <token>بزن</token>
   <token regexp='yes'>(دررو|بهادر)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -1573,7 +1013,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_155" name="ZwnjCorection155">
  <pattern>
-  <token regexp='yes'>(آمد)+</token>
+  <token>آمد</token>
   <token regexp='yes'>(نیامد|شد)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -1581,39 +1021,19 @@ USA
  <example type='correct'>آمد‌نیامد</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_156" name="ZwnjCorection156">
- <pattern>
-  <token regexp='yes'>(سابق)+</token>
-  <token regexp='yes'>(الذکر)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>سابق الذکر</marker></example>
- <example type='correct'>سابق‌الذکر</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_157" name="ZwnjCorection157">
  <pattern>
-  <token regexp='yes'>(سفید|سیاه|قهوه‌ای|قرمز|زرد|سبز|بنفش|گلگون|سرخ|پیروزه|مشک|نیل|مشکین)+</token>
-  <token regexp='yes'>(فام)</token>
+  <token regexp='yes'>(سفید|سیاه|قهوه‌ای|قرمز|زرد|سبز|بنفش|گلگون|سرخ|پیروزه|مشک|نیل|مشکین)</token>
+  <token>فام</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
  <example type='incorrect'><marker>سفید فام</marker></example>
  <example type='correct'>سفید‌فام</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_158" name="ZwnjCorection158">
- <pattern>
-  <token regexp='yes'>(قافله)+</token>
-  <token regexp='yes'>(سالار)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>قافله سالار</marker></example>
- <example type='correct'>قافله‌سالار</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_159" name="ZwnjCorection159">
  <pattern>
-  <token regexp='yes'>(خونین)+</token>
+  <token>خونین</token>
   <token regexp='yes'>(دل|جگر|چشم|شهر)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -1621,29 +1041,9 @@ USA
  <example type='correct'>خونین‌دل</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_160" name="ZwnjCorection160">
- <pattern>
-  <token regexp='yes'>(عالی)+</token>
-  <token regexp='yes'>(نسب)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>عالی نسب</marker></example>
- <example type='correct'>عالی‌نسب</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_161" name="ZwnjCorection161">
- <pattern>
-  <token regexp='yes'>(طی)+</token>
-  <token regexp='yes'>(الارض)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>طی الارض</marker></example>
- <example type='correct'>طی‌الارض</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_162" name="ZwnjCorection162">
  <pattern>
-  <token regexp='yes'>(فرو)+</token>
+  <token>فرو</token>
   <token regexp='yes'>(نهادن|داشت|کش|گذاشت|مایه)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -1651,39 +1051,9 @@ USA
  <example type='correct'>فرو‌نهادن</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_163" name="ZwnjCorection163">
- <pattern>
-  <token regexp='yes'>(تی)+</token>
-  <token regexp='yes'>(تیش)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>تی تیش</marker></example>
- <example type='correct'>تی‌تیش</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_164" name="ZwnjCorection164">
- <pattern>
-  <token regexp='yes'>(سنگ)+</token>
-  <token regexp='yes'>(فرش)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>سنگ فرش</marker></example>
- <example type='correct'>سنگ‌فرش</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_165" name="ZwnjCorection165">
- <pattern>
-  <token regexp='yes'>(رنگا)+</token>
-  <token regexp='yes'>(رنگ)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>رنگا رنگ</marker></example>
- <example type='correct'>رنگا‌رنگ</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_166" name="ZwnjCorection166">
  <pattern>
-  <token regexp='yes'>(پی)+</token>
+  <token>پی</token>
   <token regexp='yes'>(گم|گرد|فراخ|سپید|نوشت)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -1691,19 +1061,9 @@ USA
  <example type='correct'>پی‌گم</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_167" name="ZwnjCorection167">
- <pattern>
-  <token regexp='yes'>(حیرت)+</token>
-  <token regexp='yes'>(زده)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>حیرت زده</marker></example>
- <example type='correct'>حیرت‌زده</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_168" name="ZwnjCorection168">
  <pattern>
-  <token regexp='yes'>(کاسه)+</token>
+  <token>کاسه</token>
   <token regexp='yes'>(یکی|سیاه|لیس)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -1713,7 +1073,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_169" name="ZwnjCorection169">
  <pattern>
-  <token regexp='yes'>(همایون)+</token>
+  <token>همایون</token>
   <token regexp='yes'>(فال|آثار|بخت)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -1721,39 +1081,19 @@ USA
  <example type='correct'>همایون‌فال</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_170" name="ZwnjCorection170">
- <pattern>
-  <token regexp='yes'>(غلط)+</token>
-  <token regexp='yes'>(غلوط)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>غلط غلوط</marker></example>
- <example type='correct'>غلط‌غلوط</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_171" name="ZwnjCorection171">
  <pattern>
-  <token regexp='yes'>(کشتی|گرده|دشت|نگه|دید|زمین|جنگل)+</token>
-  <token regexp='yes'>(بان)</token>
+  <token>(کشتی|گرده|دشت|نگه|دید|زمین|جنگل)</token>
+  <token regexp='yes'>بان</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
  <example type='incorrect'><marker>کشتی بان</marker></example>
  <example type='correct'>کشتی‌بان</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_172" name="ZwnjCorection172">
- <pattern>
-  <token regexp='yes'>(زوار)+</token>
-  <token regexp='yes'>(دررفته)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>زوار دررفته</marker></example>
- <example type='correct'>زوار‌دررفته</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_173" name="ZwnjCorection173">
  <pattern>
-  <token regexp='yes'>(دو)+</token>
+  <token>دو</token>
   <token regexp='yes'>(برجی|تخمه|سره|قلو|به‌شک)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -1761,40 +1101,10 @@ USA
  <example type='correct'>دو‌برجی</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_174" name="ZwnjCorection174">
- <pattern>
-  <token regexp='yes'>(ترگل)+</token>
-  <token regexp='yes'>(ور گل)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>ترگل ور گل</marker></example>
- <example type='correct'>ترگل‌ور گل</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_175" name="ZwnjCorection175">
- <pattern>
-  <token regexp='yes'>(اجل)+</token>
-  <token regexp='yes'>(برگشته)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>اجل برگشته</marker></example>
- <example type='correct'>اجل‌برگشته</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_176" name="ZwnjCorection176">
- <pattern>
-  <token regexp='yes'>(قره)+</token>
-  <token regexp='yes'>(قاطی)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>قره قاطی</marker></example>
- <example type='correct'>قره‌قاطی</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_177" name="ZwnjCorection177">
  <pattern>
-  <token regexp='yes'>(تکه|پاره)+</token>
-  <token regexp='yes'>(پاره)</token>
+  <token regexp='yes'>(تکه|پاره)</token>
+  <token>پاره</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
  <example type='incorrect'><marker>تکه پاره</marker></example>
@@ -1803,7 +1113,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_178" name="ZwnjCorection178">
  <pattern>
-  <token regexp='yes'>(اولو)+</token>
+  <token>اولو</token>
   <token regexp='yes'>(الالباب|الامر|العزم)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -1813,7 +1123,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_179" name="ZwnjCorection179">
  <pattern>
-  <token regexp='yes'>(دانش)+</token>
+  <token>دانش</token>
   <token regexp='yes'>(آموخته|پژوه|آموختگی)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -1823,7 +1133,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_180" name="ZwnjCorection180">
  <pattern>
-  <token regexp='yes'>(بین)+</token>
+  <token>بین</token>
   <token regexp='yes'>(النهرین|الملل|الممالک)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -1831,49 +1141,9 @@ USA
  <example type='correct'>بین‌النهرین</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_181" name="ZwnjCorection181">
- <pattern>
-  <token regexp='yes'>(ابجد)+</token>
-  <token regexp='yes'>(خوان)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>ابجد خوان</marker></example>
- <example type='correct'>ابجد‌خوان</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_182" name="ZwnjCorection182">
- <pattern>
-  <token regexp='yes'>(شوم)+</token>
-  <token regexp='yes'>(اختر)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>شوم اختر</marker></example>
- <example type='correct'>شوم‌اختر</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_183" name="ZwnjCorection183">
- <pattern>
-  <token regexp='yes'>(دودوزه)+</token>
-  <token regexp='yes'>(باز)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>دودوزه باز</marker></example>
- <example type='correct'>دودوزه‌باز</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_184" name="ZwnjCorection184">
- <pattern>
-  <token regexp='yes'>(عقب)+</token>
-  <token regexp='yes'>(گرد)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>عقب گرد</marker></example>
- <example type='correct'>عقب‌گرد</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_185" name="ZwnjCorection185">
  <pattern>
-  <token regexp='yes'>(پیاده)+</token>
+  <token>پیاده</token>
   <token regexp='yes'>(روی|رو|نظام)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -1883,27 +1153,17 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_186" name="ZwnjCorection186">
  <pattern>
-  <token regexp='yes'>(آدم|گوشت|گیاه|علف|شیر)+</token>
-  <token regexp='yes'>(خوار)</token>
+  <token regexp='yes'>(آدم|گوشت|گیاه|علف|شیر)</token>
+  <token>خوار</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
  <example type='incorrect'><marker>آدم خوار</marker></example>
  <example type='correct'>آدم‌خوار</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_187" name="ZwnjCorection187">
- <pattern>
-  <token regexp='yes'>(قوی)+</token>
-  <token regexp='yes'>(پنجه)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>قوی پنجه</marker></example>
- <example type='correct'>قوی‌پنجه</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_188" name="ZwnjCorection188">
  <pattern>
-  <token regexp='yes'>(آزاد)+</token>
+  <token>آزاد</token>
   <token regexp='yes'>(مرد|وار)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -1913,8 +1173,8 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_189" name="ZwnjCorection189">
  <pattern>
-  <token regexp='yes'>(نیک|پست)+</token>
-  <token regexp='yes'>(فطرت)</token>
+  <token regexp='yes'>(نیک|پست)</token>
+  <token>فطرت</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
  <example type='incorrect'><marker>نیک فطرت</marker></example>
@@ -1923,8 +1183,8 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_190" name="ZwnjCorection190">
  <pattern>
-  <token regexp='yes'>(قتل|بار)+</token>
-  <token regexp='yes'>(عام)</token>
+  <token regexp='yes'>(قتل|بار)</token>
+  <token>عام</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
  <example type='incorrect'><marker>قتل عام</marker></example>
@@ -1933,7 +1193,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_191" name="ZwnjCorection191">
  <pattern>
-  <token regexp='yes'>(پاچه)+</token>
+  <token>پاچه</token>
   <token regexp='yes'>(ورمالیده|گیر)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -1943,7 +1203,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_192" name="ZwnjCorection192">
  <pattern>
-  <token regexp='yes'>(کله)+</token>
+  <token>کله</token>
   <token regexp='yes'>(معلق|خشک|گنده|خر|شق|پوک)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -1953,8 +1213,8 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_193" name="ZwnjCorection193">
  <pattern>
-  <token regexp='yes'>(ایمن|پیاده|مقاوم|امن|ساده|بهینه|مرتب|آماده|رها|آگاه|زیبا|یکسان|روان|ذخیره|استاندار)+</token>
-  <token regexp='yes'>(سازی)</token>
+  <token regexp='yes'>(ایمن|پیاده|مقاوم|امن|ساده|بهینه|مرتب|آماده|رها|آگاه|زیبا|یکسان|روان|ذخیره|استاندار)</token>
+  <token>سازی</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
  <example type='incorrect'><marker>ایمن سازی</marker></example>
@@ -1963,8 +1223,8 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_194" name="ZwnjCorection194">
  <pattern>
-  <token regexp='yes'>(اولیاء|اولیا)+</token>
-  <token regexp='yes'>(الله)</token>
+  <token regexp='yes'>(اولیاء|اولیا)</token>
+  <token>الله</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
  <example type='incorrect'><marker>اولیاء الله</marker></example>
@@ -1973,8 +1233,8 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_195" name="ZwnjCorection195">
  <pattern>
-  <token regexp='yes'>(مادر|خواهر|برادر|فرزند|پدر)+</token>
-  <token regexp='yes'>(خوانده)</token>
+  <token regexp='yes'>(مادر|خواهر|برادر|فرزند|پدر)</token>
+  <token>خوانده</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
  <example type='incorrect'><marker>مادر خوانده</marker></example>
@@ -1983,7 +1243,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_196" name="ZwnjCorection196">
  <pattern>
-  <token regexp='yes'>(فراخ)+</token>
+  <token>فراخ</token>
   <token regexp='yes'>(کندوری|رو|شکم|بال|کام|دیده|سخن|آهنگ|عیش|دست|سال|آستین|شلوار|بر|زیست|ابرو|روزی)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -1993,8 +1253,8 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_197" name="ZwnjCorection197">
  <pattern>
-  <token regexp='yes'>(چهره|دور|تاریخ|روز|لرزه)+</token>
-  <token regexp='yes'>(نگار)</token>
+  <token regexp='yes'>(چهره|دور|تاریخ|روز|لرزه)</token>
+  <token>نگار</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
  <example type='incorrect'><marker>چهره نگار</marker></example>
@@ -2003,8 +1263,8 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_198" name="ZwnjCorection198">
  <pattern>
-  <token regexp='yes'>(مستند|هوا|روان|جریان|کار|مجسمه|ایمن|پیاده|مقاوم|امن|ساده|بهینه|مرتب|شبیه|ویکی|پل|جاده|راه)+</token>
-  <token regexp='yes'>(ساز)</token>
+  <token regexp='yes'>(مستند|هوا|روان|جریان|کار|مجسمه|ایمن|پیاده|مقاوم|امن|ساده|بهینه|مرتب|شبیه|ویکی|پل|جاده|راه)</token>
+  <token>ساز</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
  <example type='incorrect'><marker>مستند ساز</marker></example>
@@ -2013,7 +1273,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_199" name="ZwnjCorection199">
  <pattern>
-  <token regexp='yes'>(کج)+</token>
+  <token>کج</token>
   <token regexp='yes'>(نهاد|خلق|کلاه|پلاس)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -2021,49 +1281,19 @@ USA
  <example type='correct'>کج‌نهاد</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_200" name="ZwnjCorection200">
- <pattern>
-  <token regexp='yes'>(تکه)+</token>
-  <token regexp='yes'>(تکه)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>تکه تکه</marker></example>
- <example type='correct'>تکه‌تکه</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_201" name="ZwnjCorection201">
- <pattern>
-  <token regexp='yes'>(علی)+</token>
-  <token regexp='yes'>(البدل)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>علی البدل</marker></example>
- <example type='correct'>علی‌البدل</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_202" name="ZwnjCorection202">
  <pattern>
-  <token regexp='yes'>(کیلو|سانتی|میلی)+</token>
-  <token regexp='yes'>(متر)</token>
+  <token regexp='yes'>(کیلو|سانتی|میلی)</token>
+  <token>متر</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
  <example type='incorrect'><marker>کیلو متر</marker></example>
  <example type='correct'>کیلو‌متر</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_203" name="ZwnjCorection203">
- <pattern>
-  <token regexp='yes'>(تنگ)+</token>
-  <token regexp='yes'>(چشم)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>تنگ چشم</marker></example>
- <example type='correct'>تنگ‌چشم</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_204" name="ZwnjCorection204">
  <pattern>
-  <token regexp='yes'>(برگشت|انحنا|برش|انعطاف|مهمان|امکان)+</token>
+  <token regexp='yes'>(برگشت|انحنا|برش|انعطاف|مهمان|امکان)</token>
   <token regexp='yes'>(پذیر|ناپذیر)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -2071,69 +1301,19 @@ USA
  <example type='correct'>برگشت‌پذیر</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_205" name="ZwnjCorection205">
- <pattern>
-  <token regexp='yes'>(عدیم)+</token>
-  <token regexp='yes'>(النظیر)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>عدیم النظیر</marker></example>
- <example type='correct'>عدیم‌النظیر</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_206" name="ZwnjCorection206">
  <pattern>
-  <token regexp='yes'>(خود|روان|پاک|چرک|دست|پشت|زیر|پا|داستان)+</token>
-  <token regexp='yes'>(نویس)</token>
+  <token regexp='yes'>(خود|روان|پاک|چرک|دست|پشت|زیر|پا|داستان)</token>
+  <token>نویس</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
  <example type='incorrect'><marker>خود نویس</marker></example>
  <example type='correct'>خود‌نویس</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_207" name="ZwnjCorection207">
- <pattern>
-  <token regexp='yes'>(دم)+</token>
-  <token regexp='yes'>(کلفت)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>دم کلفت</marker></example>
- <example type='correct'>دم‌کلفت</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_208" name="ZwnjCorection208">
- <pattern>
-  <token regexp='yes'>(دل)+</token>
-  <token regexp='yes'>(افگار)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>دل افگار</marker></example>
- <example type='correct'>دل‌افگار</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_209" name="ZwnjCorection209">
- <pattern>
-  <token regexp='yes'>(تام)+</token>
-  <token regexp='yes'>(الاختیار)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>تام الاختیار</marker></example>
- <example type='correct'>تام‌الاختیار</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_210" name="ZwnjCorection210">
- <pattern>
-  <token regexp='yes'>(چهار)+</token>
-  <token regexp='yes'>(شانه)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>چهار شانه</marker></example>
- <example type='correct'>چهار‌شانه</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_211" name="ZwnjCorection211">
  <pattern>
-  <token regexp='yes'>(انگشت)+</token>
+  <token>انگشت</token>
   <token regexp='yes'>(نما|نشان|پیچ)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -2141,50 +1321,10 @@ USA
  <example type='correct'>انگشت‌نما</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_212" name="ZwnjCorection212">
- <pattern>
-  <token regexp='yes'>(خشک)+</token>
-  <token regexp='yes'>(سر)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>خشک سر</marker></example>
- <example type='correct'>خشک‌سر</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_213" name="ZwnjCorection213">
- <pattern>
-  <token regexp='yes'>(سابقه)+</token>
-  <token regexp='yes'>(سالار)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>سابقه سالار</marker></example>
- <example type='correct'>سابقه‌سالار</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_214" name="ZwnjCorection214">
- <pattern>
-  <token regexp='yes'>(قیمه)+</token>
-  <token regexp='yes'>(قیمه)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>قیمه قیمه</marker></example>
- <example type='correct'>قیمه‌قیمه</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_215" name="ZwnjCorection215">
- <pattern>
-  <token regexp='yes'>(فرنگی)+</token>
-  <token regexp='yes'>(مآب)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>فرنگی مآب</marker></example>
- <example type='correct'>فرنگی‌مآب</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_216" name="ZwnjCorection216">
  <pattern>
-  <token regexp='yes'>(بار|سرمایه|تخم|کتاب|خواب)+</token>
-  <token regexp='yes'>(گذار)</token>
+  <token regexp='yes'>(بار|سرمایه|تخم|کتاب|خواب)</token>
+  <token>گذار</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
  <example type='incorrect'><marker>بار گذار</marker></example>
@@ -2193,7 +1333,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_217" name="ZwnjCorection217">
  <pattern>
-  <token regexp='yes'>(کد)+</token>
+  <token>کد</token>
   <token regexp='yes'>(خدا|بانو)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -2201,20 +1341,10 @@ USA
  <example type='correct'>کد‌خدا</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_218" name="ZwnjCorection218">
- <pattern>
-  <token regexp='yes'>(مالک)+</token>
-  <token regexp='yes'>(الرقاب)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>مالک الرقاب</marker></example>
- <example type='correct'>مالک‌الرقاب</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_219" name="ZwnjCorection219">
  <pattern>
-  <token regexp='yes'>(شیطان|خدا|بت|خورشید|مهر|آتش|یزدان|ایزد|گاو|خود|آفتاب)+</token>
-  <token regexp='yes'>(پرست)</token>
+  <token regexp='yes'>(شیطان|خدا|بت|خورشید|مهر|آتش|یزدان|ایزد|گاو|خود|آفتاب)</token>
+  <token regexp='yes'>پرست</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
  <example type='incorrect'><marker>شیطان پرست</marker></example>
@@ -2223,7 +1353,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_220" name="ZwnjCorection220">
  <pattern>
-  <token regexp='yes'>(فرمان)+</token>
+  <token>فرمان</token>
   <token regexp='yes'>(روا|بر)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -2233,7 +1363,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_221" name="ZwnjCorection221">
  <pattern>
-  <token regexp='yes'>(میرزا)+</token>
+  <token>میرزا</token>
   <token regexp='yes'>(قلمدان|قشمشم|بنویس)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -2243,7 +1373,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_222" name="ZwnjCorection222">
  <pattern>
-  <token regexp='yes'>(بهره)+</token>
+  <token>بهره</token>
   <token regexp='yes'>(برداری|مند|کشی|گیری|دهی)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -2251,19 +1381,9 @@ USA
  <example type='correct'>بهره‌برداری</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_223" name="ZwnjCorection223">
- <pattern>
-  <token regexp='yes'>(سینه)+</token>
-  <token regexp='yes'>(چاک)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>سینه چاک</marker></example>
- <example type='correct'>سینه‌چاک</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_224" name="ZwnjCorection224">
  <pattern>
-  <token regexp='yes'>(کینه)+</token>
+  <token>کینه</token>
   <token regexp='yes'>(توز|ورز)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -2273,8 +1393,8 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_225" name="ZwnjCorection225">
  <pattern>
-  <token regexp='yes'>(دل|جهان|نافه)+</token>
-  <token regexp='yes'>(گشا)</token>
+  <token regexp='yes'>(دل|جهان|نافه)</token>
+  <token>گشا</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
  <example type='incorrect'><marker>دل گشا</marker></example>
@@ -2283,7 +1403,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_226" name="ZwnjCorection226">
  <pattern>
-  <token regexp='yes'>(فرا)+</token>
+  <token>فرا</token>
   <token regexp='yes'>(خور|روی)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -2291,29 +1411,9 @@ USA
  <example type='correct'>فرا‌خور</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_227" name="ZwnjCorection227">
- <pattern>
-  <token regexp='yes'>(سربه)+</token>
-  <token regexp='yes'>(مهر)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>سربه مهر</marker></example>
- <example type='correct'>سربه‌مهر</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_228" name="ZwnjCorection228">
- <pattern>
-  <token regexp='yes'>(ول)+</token>
-  <token regexp='yes'>(خرج)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>ول خرج</marker></example>
- <example type='correct'>ول‌خرج</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_229" name="ZwnjCorection229">
  <pattern>
-  <token regexp='yes'>(شب)+</token>
+  <token>شب</token>
   <token regexp='yes'>(رنگ|باره)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -2323,7 +1423,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_230" name="ZwnjCorection230">
  <pattern>
-  <token regexp='yes'>(گرم|نرم|سرد|جمع|خنک|مرطوب|ضرب|تقسیم|کم|سرگرم|خوشحال|ناراحت|سخت|روان|باز|زیبا|زشت)+</token>
+  <token regexp='yes'>(گرم|نرم|سرد|جمع|خنک|مرطوب|ضرب|تقسیم|کم|سرگرم|خوشحال|ناراحت|سخت|روان|باز|زیبا|زشت)</token>
   <token regexp='yes'>(کننده|کنندگی)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -2333,7 +1433,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_231" name="ZwnjCorection231">
  <pattern>
-  <token regexp='yes'>(جمع)+</token>
+  <token>جمع</token>
   <token regexp='yes'>(آوری|بندی)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -2343,7 +1443,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_232" name="ZwnjCorection232">
  <pattern>
-  <token regexp='yes'>(تن)+</token>
+  <token>تن</token>
   <token regexp='yes'>(فروش|آسان)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -2353,7 +1453,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_233" name="ZwnjCorection233">
  <pattern>
-  <token regexp='yes'>(فرخ)+</token>
+  <token>فرخ</token>
   <token regexp='yes'>(لقا|دیم|فال|پی)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -2363,7 +1463,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_234" name="ZwnjCorection234">
  <pattern>
-  <token regexp='yes'>(ماه)+</token>
+  <token>ماه</token>
   <token regexp='yes'>(طلعت)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -2373,7 +1473,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_235" name="ZwnjCorection235">
  <pattern>
-  <token regexp='yes'>(ابرو)+</token>
+  <token>ابرو</token>
   <token regexp='yes'>(کمان|قیطان)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -2383,8 +1483,8 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_236" name="ZwnjCorection236">
  <pattern>
-  <token regexp='yes'>(فیزیک|شیمی|ریاضی|تاریخ|قلم|کتاب)+</token>
-  <token regexp='yes'>(دان)</token>
+  <token regexp='yes'>(فیزیک|شیمی|ریاضی|تاریخ|قلم|کتاب)</token>
+  <token>دان</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
  <example type='incorrect'><marker>فیزیک دان</marker></example>
@@ -2393,7 +1493,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_237" name="ZwnjCorection237">
  <pattern>
-  <token regexp='yes'>(بر)+</token>
+  <token>بر</token>
   <token regexp='yes'>(آورد|خورد|داشت|هم)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -2403,7 +1503,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_238" name="ZwnjCorection238">
  <pattern>
-  <token regexp='yes'>(آکنده)+</token>
+  <token>آکنده</token>
   <token regexp='yes'>(گوش|پهلو)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -2413,7 +1513,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_239" name="ZwnjCorection239">
  <pattern>
-  <token regexp='yes'>(گشاده)+</token>
+  <token>گشاده</token>
   <token regexp='yes'>(کار|دل|رو|دست)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -2423,37 +1523,17 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_240" name="ZwnjCorection240">
  <pattern>
-  <token regexp='yes'>(ناهم|هم|گندم)+</token>
-  <token regexp='yes'>(گون)</token>
+  <token regexp='yes'>(ناهم|هم|گندم)</token>
+  <token>گون</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
  <example type='incorrect'><marker>ناهم گون</marker></example>
  <example type='correct'>ناهم‌گون</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_241" name="ZwnjCorection241">
- <pattern>
-  <token regexp='yes'>(آب)+</token>
-  <token regexp='yes'>(لمبو)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>آب لمبو</marker></example>
- <example type='correct'>آب‌لمبو</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_242" name="ZwnjCorection242">
- <pattern>
-  <token regexp='yes'>(شلم)+</token>
-  <token regexp='yes'>(شوربا)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>شلم شوربا</marker></example>
- <example type='correct'>شلم‌شوربا</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_243" name="ZwnjCorection243">
  <pattern>
-  <token regexp='yes'>(آش)+</token>
+  <token>آش</token>
   <token regexp='yes'>(دهن|خور|پز)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -2461,19 +1541,9 @@ USA
  <example type='correct'>آش‌دهن</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_244" name="ZwnjCorection244">
- <pattern>
-  <token regexp='yes'>(قریب)+</token>
-  <token regexp='yes'>(الوقوع)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>قریب الوقوع</marker></example>
- <example type='correct'>قریب‌الوقوع</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_245" name="ZwnjCorection245">
  <pattern>
-  <token regexp='yes'>(دست)+</token>
+  <token>دست</token>
   <token regexp='yes'>(نویس|خوش|پاچه|چین|آورد)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -2483,8 +1553,8 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_246" name="ZwnjCorection246">
  <pattern>
-  <token regexp='yes'>(وفا|فره|نیاز|جفا|خرد|غیرت|باور|ارزش|نعل|درد)+</token>
-  <token regexp='yes'>(مند)</token>
+  <token regexp='yes'>(وفا|فره|نیاز|جفا|خرد|غیرت|باور|ارزش|نعل|درد)</token>
+  <token>مند</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
  <example type='incorrect'><marker>وفا مند</marker></example>
@@ -2493,7 +1563,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_247" name="ZwnjCorection247">
  <pattern>
-  <token regexp='yes'>(پا)+</token>
+  <token>پا</token>
   <token regexp='yes'>(برجا|برهنه|بست|پتی||کار)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -2503,7 +1573,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_248" name="ZwnjCorection248">
  <pattern>
-  <token regexp='yes'>(ذوات)+</token>
+  <token>ذوات</token>
   <token regexp='yes'>(الارحام|الاذناب)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -2513,7 +1583,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_249" name="ZwnjCorection249">
  <pattern>
-  <token regexp='yes'>(لت)+</token>
+  <token>لت</token>
   <token regexp='yes'>(لت|انبان|انبار)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -2521,30 +1591,10 @@ USA
  <example type='correct'>لت‌لت</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_250" name="ZwnjCorection250">
- <pattern>
-  <token regexp='yes'>(چشمه)+</token>
-  <token regexp='yes'>(چشمه)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>چشمه چشمه</marker></example>
- <example type='correct'>چشمه‌چشمه</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_251" name="ZwnjCorection251">
- <pattern>
-  <token regexp='yes'>(قاچ)+</token>
-  <token regexp='yes'>(قاچ)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>قاچ قاچ</marker></example>
- <example type='correct'>قاچ‌قاچ</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_252" name="ZwnjCorection252">
  <pattern>
-  <token regexp='yes'>(گل|آذر)+</token>
-  <token regexp='yes'>(گون)</token>
+  <token regexp='yes'>(گل|آذر)</token>
+  <token>گون</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
  <example type='incorrect'><marker>گل گون</marker></example>
@@ -2553,7 +1603,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_253" name="ZwnjCorection253">
  <pattern>
-  <token regexp='yes'>(لا)+</token>
+  <token>لا</token>
   <token regexp='yes'>(ابالی|جون|کردار|مذهب|مروت|یتغیر|یتناهی|یزال|یعقل)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -2563,7 +1613,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_254" name="ZwnjCorection254">
  <pattern>
-  <token regexp='yes'>(پیچ)+</token>
+  <token>پیچ</token>
   <token regexp='yes'>(واپیچ|پیچ)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -2573,7 +1623,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_255" name="ZwnjCorection255">
  <pattern>
-  <token regexp='yes'>(جان)+</token>
+  <token>جان</token>
   <token regexp='yes'>(سخت|جانی)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -2583,7 +1633,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_256" name="ZwnjCorection256">
  <pattern>
-  <token regexp='yes'>(ابن)+</token>
+  <token>ابن</token>
   <token regexp='yes'>(الیوم|الوقت|السبیل|عباس)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -2593,7 +1643,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_257" name="ZwnjCorection257">
  <pattern>
-  <token regexp='yes'>(شیرین)+</token>
+  <token>شیرین</token>
   <token regexp='yes'>(عقل|دهن)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -2603,7 +1653,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_258" name="ZwnjCorection258">
  <pattern>
-  <token regexp='yes'>(خواجه)+</token>
+  <token>خواجه</token>
   <token regexp='yes'>(سرا|تاش)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -2613,67 +1663,17 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_259" name="ZwnjCorection259">
  <pattern>
-  <token regexp='yes'>(ناقاره|چوبک|دف|دمبک|ساز|نی|سنتور|تار|گیتار|ارگ)+</token>
-  <token regexp='yes'>(زن)</token>
+  <token regexp='yes'>(ناقاره|چوبک|دف|دمبک|ساز|نی|سنتور|تار|گیتار|ارگ)</token>
+  <token>زن</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
  <example type='incorrect'><marker>ناقاره زن</marker></example>
  <example type='correct'>ناقاره‌زن</example>
 </rule>
 <!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_260" name="ZwnjCorection260">
- <pattern>
-  <token regexp='yes'>(گردا)+</token>
-  <token regexp='yes'>(گرد)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>گردا گرد</marker></example>
- <example type='correct'>گردا‌گرد</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_261" name="ZwnjCorection261">
- <pattern>
-  <token regexp='yes'>(حکیم)+</token>
-  <token regexp='yes'>(باشی)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>حکیم باشی</marker></example>
- <example type='correct'>حکیم‌باشی</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_262" name="ZwnjCorection262">
- <pattern>
-  <token regexp='yes'>(آتشین)+</token>
-  <token regexp='yes'>(پنجه)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>آتشین پنجه</marker></example>
- <example type='correct'>آتشین‌پنجه</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_263" name="ZwnjCorection263">
- <pattern>
-  <token regexp='yes'>(اسفل)+</token>
-  <token regexp='yes'>(السافلین)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>اسفل السافلین</marker></example>
- <example type='correct'>اسفل‌السافلین</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
-<rule id="ZwnjCorection_ID_264" name="ZwnjCorection264">
- <pattern>
-  <token regexp='yes'>(ابله)+</token>
-  <token regexp='yes'>(گونه)</token>
- </pattern>
- <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
- <example type='incorrect'><marker>ابله گونه</marker></example>
- <example type='correct'>ابله‌گونه</example>
-</rule>
-<!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_265" name="ZwnjCorection265">
  <pattern>
-  <token regexp='yes'>(گران)+</token>
+  <token>گران</token>
   <token regexp='yes'>(مغز|سایه|قدر|رکاب|سرشت|پایه|قیمت|روح|سنگ|جان|سر)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
@@ -2683,7 +1683,7 @@ USA
 <!-- Farsi rule, 2014-08-14 -->
 <rule id="ZwnjCorection_ID_266" name="ZwnjCorection266">
  <pattern>
-  <token regexp='yes'>(کم)+</token>
+  <token>کم</token>
   <token regexp='yes'>(نظیر|دل|محل|بضاعت|کار|اصل|کم)</token>
  </pattern>
  <message>اصلاح نیم‌فاصلهٔ میان دو کلمه</message>
