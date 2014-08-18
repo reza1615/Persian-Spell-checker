@@ -5600,6 +5600,7 @@ It [really!] works. This is e.g. Mr. Smith, who talks slowly... And this is anot
 <languagemap languagepattern="(TL|tl).*" languagerulename="Generic"></languagemap>
 <languagemap languagepattern="(AST|ast).*" languagerulename="Generic"></languagemap>
 <languagemap languagepattern="(FA|fa).*" languagerulename="Farsi"></languagemap>
+<languagemap languagepattern="(PER|per).*" languagerulename="Farsi"></languagemap>
 <languagemap languagepattern=".*" languagerulename="Default"></languagemap>
 </maprules>
 </body>
