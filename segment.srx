@@ -5489,7 +5489,7 @@ It [really!] works. This is e.g. Mr. Smith, who talks slowly... And this is anot
 <afterbreak>\p{Lu}\p{Ll}</afterbreak>
 </rule>
 </languagerule>
-<languagerule languagerulename="Farsi">
+<languagerule languagerulename="Persian">
 <rule break="no">
 <beforebreak>\bwww\.</beforebreak>
 <afterbreak>\w</afterbreak>
@@ -5599,7 +5599,8 @@ It [really!] works. This is e.g. Mr. Smith, who talks slowly... And this is anot
 <languagemap languagepattern="(ML|ml).*" languagerulename="Generic"></languagemap>
 <languagemap languagepattern="(TL|tl).*" languagerulename="Generic"></languagemap>
 <languagemap languagepattern="(AST|ast).*" languagerulename="Generic"></languagemap>
-<languagemap languagepattern="(FA|fa).*" languagerulename="Farsi"></languagemap>
+<languagemap languagepattern="(FA|fa).*" languagerulename="Persian"></languagemap>
+<languagemap languagepattern="(PER|per).*" languagerulename="Persian"></languagemap>
 <languagemap languagepattern=".*" languagerulename="Default"></languagemap>
 </maprules>
 </body>
