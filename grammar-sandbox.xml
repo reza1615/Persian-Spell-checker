@@ -10,3 +10,11 @@
 
 
 لطفا متن خود را اینجا قرار دهید . یا بررسی کنید که این متن را‌ برای دیدن بعضی بعضی از اشکال هایی که ابزار زبان توانسته تشخیس هدد. درباره ی نرم افزارهای بررسی کننده های گرامر چه فکر می کنید؟ لطفا در نظر داشته باشید که آن‌ها بی نقص نمی باشند.‎
+
+farsi
+
+https://github.com/languagetool-org/languagetool/blob/master/languagetool-language-modules/fa/src/test/java/org/languagetool/tokenizers/PersianSRXSentenceTokenizerTest.java
+
+english
+
+https://github.com/languagetool-org/languagetool/blob/master/languagetool-language-modules/en/src/test/java/org/languagetool/tokenizers/EnglishSRXSentenceTokenizerTest.java
