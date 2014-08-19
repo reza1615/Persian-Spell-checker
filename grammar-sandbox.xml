@@ -11,6 +11,9 @@
 
 لطفا متن خود را اینجا قرار دهید . یا بررسی کنید که این متن را‌ برای دیدن بعضی بعضی از اشکال هایی که ابزار زبان توانسته تشخیس هدد. درباره ی نرم افزارهای بررسی کننده های گرامر چه فکر می کنید؟ لطفا در نظر داشته باشید که آن‌ها بی نقص نمی باشند.‎
 
+
+https://github.com/languagetool-org/languagetool/pull/144#issuecomment-52615766
+
 farsi
 
 https://github.com/languagetool-org/languagetool/blob/master/languagetool-language-modules/fa/src/test/java/org/languagetool/tokenizers/PersianSRXSentenceTokenizerTest.java
