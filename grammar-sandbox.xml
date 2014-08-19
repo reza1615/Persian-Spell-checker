@@ -21,3 +21,10 @@ https://github.com/languagetool-org/languagetool/blob/master/languagetool-langua
 english
 
 https://github.com/languagetool-org/languagetool/blob/master/languagetool-language-modules/en/src/test/java/org/languagetool/tokenizers/EnglishSRXSentenceTokenizerTest.java
+
+----------------
+https://github.com/languagetool-org/languagetool/blob/master/languagetool-language-modules/en/src/main/java/org/languagetool/rules/en/EnglishWordRepeatBeginningRule.java
+
+هم - همچنین- نیز-از یک سو-از یک طرف-از طرف ديگر-بنابراین-حتی-چنانچه-
+---------------
+
