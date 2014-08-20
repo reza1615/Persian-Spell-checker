@@ -1,3 +1,6 @@
+http://community.languagetool.org/ruleEditor2/
+http://wiki.languagetool.org/development-overview
+
 مثال‌های دستور خط را مشابه الگو و نمونه‌ها اینجا قرار دهید.
 ---------
 rule_n:
