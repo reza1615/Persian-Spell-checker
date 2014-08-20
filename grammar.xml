@@ -35,7 +35,7 @@ USA
                 <token regexp='yes'>(ارزید|افتاد|افراشت|افروخت|افزود|افسرد|افشاند|افکند|انباشت|انجامید|انداخت|اندوخت|اندود|اندیشید|انگاشت|انگیخت|انگیزاند|اوباشت|ایستاد|آراست|آراماند|آرامید|آرمید|آزرد|آزمود|آسود|آشامید|آشفت|آشوبید|آغازید|آغشت|آفرید|آکند|آگند|آلود|آمد|آمرزید|آموخت|آموزاند|آمیخت|آهیخت|آورد|آویخت|باخت|باراند|بارید|بافت|بالید|باوراند|بایست|بخشود|بخشید|برازید|برد|برید|بست|بسود|بسیجید|بلعید|بود|بوسید|بویید|بیخت|پاشاند|پاشید|پالود|پایید|پخت|پذیراند|پذیرفت|پراکند|پراند|پرداخت|پرستید|پرسید|پرهیزید|پروراند|پرورد|پرید|پژمرد|پژوهید|پسندید|پلاسید|پلکید|پناهید|پنداشت|پوسید|پوشاند|پوشید|پویید|پیچاند|پیچانید|پیچید|پیراست|پیمود|پیوست|تاباند|تابید|تاخت|تاراند|تازاند|تازید|تافت|تپاند|تپید|تراشاند|تراشید|تراوید|ترساند|ترسید|ترشید|ترکاند|ترکید|تکاند|تکانید|تنید|توانست|جَست|جُست|جست|جنباند|جنبید|جنگید|جهاند|جهید|جوشاند|جوشید|جوید|چاپید|چایید|چپاند|چپید|چراند|چربید|چرخاند|چرخید|چرید|چسباند|چسبید|چشاند|چشید|چکاند|چکید|چلاند|چلانید|چمید|چید|خاراند|خارید|خاست|خایید|خراشاند|خراشید|خرامید|خروشید|خرید|خزید|خست|خشکاند|خشکید|خفت|خلید|خمید|خنداند|خندانید|خندید|خواباند|خوابانید|خوابید|خواست|خواند|خوراند|خورد|خوفید|خیساند|خیسید|داد|داشت|دانست|درخشانید|درخشید|دروید|درید|دزدید|دمید|دواند|دوخت|دوشید|دوید|دید|دیدم|راند|ربود|رخشید|رساند|رسانید|رست|رَست|رُست|رسید|رشت|رفت|رُفت|رقصاند|رقصید|رمید|رنجاند|رنجید|رندید|رهاند|رهانید|رهید|روبید|روفت|رویاند|رویید|ریخت|رید|ریسید|زاد|زارید|زایید|زد|زدود|زیست|سابید|ساخت|سپارد|سپرد|سپوخت|ستاند|ستد|سترد|ستود|ستیزید|سرایید|سرشت|سرود|سرید|سزید|سفت|سگالید|سنجید|سوخت|سود|سوزاند|شاشید|شایست|شتافت|شد|شست|شکافت|شکست|شکفت|شکیفت|شگفت|شمارد|شمرد|شناخت|شناساند|شنید|شوراند|شورید|طپید|طلبید|طوفید|غارتید|غرید|غلتاند|غلتانید|غلتید|غلطاند|غلطانید|غلطید|غنود|فرستاد|فرسود|فرمود|فروخت|فریفت|فشاند|فشرد|فهماند|فهمید|قاپید|قبولاند|کاست|کاشت|کاوید|کرد|کشاند|کشانید|کشت|کشید|کفت|کفید|کند|کوبید|کوچید|کوشید|کوفت|گَزید|گُزید|گایید|گداخت|گذارد|گذاشت|گذراند|گذشت|گرازید|گرایید|گرداند|گردانید|گردید|گرفت|گروید|گریاند|گریخت|گریست|گزارد|گزید|گسارد|گستراند|گسترد|گسست|گسیخت|گشت|گشود|گفت|گمارد|گماشت|گنجاند|گنجانید|گنجید|گندید|گوارید|گوزید|لرزاند|لرزید|لغزاند|لغزید|لمباند|لمدنی|لمید|لندید|لنگید|لهید|لولید|لیسید|ماسید|مالاند|مالید|ماند|مانست|مرد|مکشید|مکید|مولید|مویید|نازید|نالید|نامید|نشاند|نشست|نکوهید|نگاشت|نگریست|نمایاند|نمود|نهاد|نهفت|نواخت|نوردید|نوشاند|نوشت|نوشید|نیوشید|هراسید|هشت|ورزید|وزاند|وزید|یارست|یازید|یافت)(م|ی|یم|ید|ند|)</token>
             </pattern>
             <message>آیا منظور شما
-                <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                 <suggestion>\1&#8204;\2</suggestion> است؟</message>
             <short>می ، نمی باید به فعل ماضی با فاصلهٔ مجازی بچسبند</short>
             <example type='incorrect'>
                 <marker>می ایستادند</marker>
@@ -48,7 +48,7 @@ USA
                 <token regexp='yes'>(ارز|افت|افراز|افروز|افزا|افزای|افسر|افشان|افکن|انبار|انباز|انجام|انداز|اندای|اندوز|اندیش|انگار|انگیز|انگیزان|اوبار|ایست|آرا|آرام|آرامان|آرای|آزار|آزما|آزمای|آسا|آسای|آشام|آشوب|آغار|آغاز|آفرین|آکن|آگن|آلا|آلای|آمرز|آموز|آموزان|آمیز|آهنج|آور|آویز|آی|بار|باران|باز|باش|باف|بال|باوران|بای|باید|بخش|بخشا|بخشای|بر|بَر|بُر|براز|بساو|بسیج|بلع|بند|بو|بوس|بوی|بیز|بین|پا|پاش|پاشان|پالا|پالای|پذیر|پذیران|پر|پراکن|پران|پرداز|پرس|پرست|پرهیز|پرور|پروران|پز|پژمر|پژوه|پسند|پلاس|پلک|پناه|پندار|پوس|پوش|پوشان|پوی|پیچ|پیچان|پیرا|پیرای|پیما|پیمای|پیوند|تاب|تابان|تاران|تاز|تازان|تپ|تپان|تراش|تراشان|تراو|ترس|ترسان|ترش|ترک|ترکان|تکان|تن|توان|توپ|جنب|جنبان|جنگ|جه|جهان|جو|جوش|جوشان|جوی|چاپ|چای|چپ|چپان|چر|چران|چرب|چرخ|چرخان|چسب|چسبان|چش|چشان|چک|چکان|چل|چلان|چم|چین|خار|خاران|خای|خر|خراش|خراشان|خرام|خروش|خز|خست|خشک|خشکان|خل|خم|خند|خندان|خواب|خوابان|خوان|خواه|خور|خوران|خوف|خیز|خیس|خیسان|دار|در|درخش|درخشان|درو|دزد|دم|ده|دو|دوان|دوز|دوش|ران|ربا|ربای|رخش|رس|رسان|رشت|رقص|رقصان|رم|رنج|رنجان|رند|ره|رهان|رو|روب|روی|رویان|ریز|ریس|رین|زا|زار|زای|زدا|زدای|زن|زی|ساب|ساز|سای|سپار|سپر|سپوز|ستا|ستان|ستر|ستیز|سر|سرا|سرای|سرشت|سز|سگال|سنب|سنج|سوز|سوزان|شاش|شای|شتاب|شکاف|شکف|شکن|شکوف|شکیب|شمار|شمر|شناس|شناسان|شنو|شو|شور|شوران|شوی|طپ|طلب|طوف|غارت|غر|غلت|غلتان|غلط|غلطان|غنو|فرسا|فرسای|فرست|فرما|فرمای|فروش|فریب|فشار|فشان|فشر|فهم|فهمان|قاپ|قبولان|کار|کاه|کاو|کش|کَش|کُش|کِش|کشان|کف|کن|کوب|کوچ|کوش|گا|گای|گداز|گذار|گذر|گذران|گرا|گراز|گرای|گرد|گردان|گرو|گری|گریان|گریز|گز|گزار|گزین|گسار|گستر|گستران|گسل|گشا|گشای|گمار|گنج|گنجان|گند|گو|گوار|گوز|گوی|گیر|لرز|لرزان|لغز|لغزان|لم|لمبان|لند|لنگ|له|لول|لیس|ماس|مال|مان|مک|مول|موی|میر|ناز|نال|نام|نشان|نشین|نکوه|نگار|نگر|نما|نمای|نمایان|نه|نهنب|نواز|نورد|نوش|نوشان|نویس|نیوش|هراس|هست|هل|ورز|وز|وزان|یاب|یار|یاز)(م|ی|یم|ید|ند|د)</token>
             </pattern>
             <message>آیا منظور شما
-                <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                 <suggestion>\1&#8204;\2</suggestion> است؟</message>
             <short>می ، نمی باید به فعل مضارع با فاصلهٔ مجازی بچسبند</short>
             <example type='incorrect'>
                 <marker>می ورزند</marker>
@@ -63,7 +63,7 @@ USA
                 <token regexp='yes'>ها(ی|یی|یم|یت|یش|مان|تان|شان|)</token>
             </pattern>
             <message>آیا منظور شما
-                <suggestion>\1&#8204;ها</suggestion>است؟</message>
+                 <suggestion>\1&#8204;ها</suggestion> است؟</message>
             <short>فاصلهٔ «ها» را با کلمهٔ قبل حذف کنید</short>
             <example type='incorrect'>
                 <marker>کلمه ها</marker>
@@ -78,7 +78,7 @@ USA
                 <token>‌</token>
             </pattern>
             <message>آیا منظور شما
-                <suggestion>\1</suggestion>است؟</message>
+                 <suggestion>\1</suggestion> است؟</message>
             <short>فاصلهٔ مجازی نباید بعد از سجاوندی، اعداد و بعضی از حروف فارسی قرار گیرد.</short>
             <example type='incorrect'>
                 <marker>و‌</marker>ارد</example>
@@ -90,7 +90,7 @@ USA
                 <token regexp='yes'>([۰-۹0-9\w\n\s\[\]\.،«»\:\(\)\؛\؟\?\;\$\!\@\-\=\+\\\|])</token>
             </pattern>
             <message>آیا منظور شما
-                <suggestion>\1</suggestion>است؟</message>
+                 <suggestion>\1</suggestion> است؟</message>
             <short>فاصلهٔ مجازی نباید قبل از حروف لاتین، اعداد و سجاوندی باشد.</short>
             <example type='incorrect'>
                 <marker>‌:</marker>
@@ -106,7 +106,7 @@ USA
                 <token regexp='yes'>(فام|گون)</token>
             </pattern>
             <message>آیا منظور شما
-                <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                 <suggestion>\1&#8204;\2</suggestion> است؟</message>
             <short>چسبیدن می به فعل ماضی</short>
             <example type='incorrect'>
                 <marker>قرمز فام</marker>
@@ -119,7 +119,7 @@ USA
                 <token regexp='yes'>(گانه|ماهه)</token>
             </pattern>
             <message>آیا منظور شما
-                <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                 <suggestion>\1&#8204;\2</suggestion> است؟</message>
             <short>اصلاح فاصلهٔ مجازی</short>
             <example type='incorrect'>
                 <marker>یک گانه</marker>
@@ -132,7 +132,7 @@ USA
                 <token regexp='yes'>(ی|زاده|نیا|پور|گان|فر|نژاد|یان|ی‌ها|یها)</token>
             </pattern>
             <message>آیا منظور شما
-                <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                 <suggestion>\1&#8204;\2</suggestion> است؟</message>
             <short>اصلاح فاصلهٔ مجازی</short>
             <example type='incorrect'>
                 <marker>شاهرخ نژاد</marker>
@@ -147,7 +147,7 @@ USA
                     <token regexp='yes'>(آشام|خوار|بار|گرم|سرد|بها)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>خون آشام</marker>
@@ -160,7 +160,7 @@ USA
                     <token>گر</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>تفریق گر</marker>
@@ -173,7 +173,7 @@ USA
                     <token regexp='yes'>(الصوم|الخمر)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>دائم الصوم</marker>
@@ -186,7 +186,7 @@ USA
                     <token>نویس</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>نام نویس</marker>
@@ -199,7 +199,7 @@ USA
                     <token>آور</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>پای آور</marker>
@@ -212,7 +212,7 @@ USA
                     <token>شناس</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>انسان شناس</marker>
@@ -225,7 +225,7 @@ USA
                     <token>چی</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>نقاره چی</marker>
@@ -238,7 +238,7 @@ USA
                     <token>پایه</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>دو پایه</marker>
@@ -251,7 +251,7 @@ USA
                     <token>دزد</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>کاه دزد</marker>
@@ -264,7 +264,7 @@ USA
                     <token regexp='yes'>(افزون|انه)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>روز افزون</marker>
@@ -277,7 +277,7 @@ USA
                     <token>سنج</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>طیف سنج</marker>
@@ -290,7 +290,7 @@ USA
                     <token regexp='yes'>(آلود|قدرت)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>ابر آلود</marker>
@@ -303,7 +303,7 @@ USA
                     <token regexp='yes'>(پا|دست|دندان|هوش)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>تیز پا</marker>
@@ -316,7 +316,7 @@ USA
                     <token regexp='yes'>(العجب|الکلام|الهول)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>ابو العجب</marker>
@@ -329,7 +329,7 @@ USA
                     <token regexp='yes'>(پرستیژ|جنبه)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>با پرستیژ</marker>
@@ -342,7 +342,7 @@ USA
                     <token>رو</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>خوش رو</marker>
@@ -355,7 +355,7 @@ USA
                     <token regexp='yes'>(ناخن|مزاج|دل)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>شکسته ناخن</marker>
@@ -368,7 +368,7 @@ USA
                     <token>نشین</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>چادر نشین</marker>
@@ -381,7 +381,7 @@ USA
                     <token regexp='yes'>(کاره|جانبه)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>همه کاره</marker>
@@ -394,7 +394,7 @@ USA
                     <token>تر</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>پایین تر</marker>
@@ -407,7 +407,7 @@ USA
                     <token regexp='yes'>(دانستم|دانستی|دانستیم|دانستید|دانستند|دانم|داند|دانیم|دانید|دانند)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>می دانستم</marker>
@@ -420,7 +420,7 @@ USA
                     <token regexp='yes'>(چهره|ریزان|ریز|گون|باران)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>گل چهره</marker>
@@ -433,7 +433,7 @@ USA
                     <token regexp='yes'>(نهایت|انتها|مقدار|کار|مزه|بو|ارزش|مزد|بها|چیز|دین|لیاقت|اعتماد|اراده|ثبات|دست و پا|حس|دریغ|امنیت|اختیار|وجدان|روح|رنگ|پول|جنبه|پناه|مایه|رویه|مورد|نیاز|شرف|معرفت|نزاکت|مبالات|شعور|مصرف|پایه|احترام|آلایش|معنی)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>بی نهایت</marker>
@@ -446,7 +446,7 @@ USA
                     <token regexp='yes'>(القربی|الاوتار|العقول)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>ذوی القربی</marker>
@@ -459,7 +459,7 @@ USA
                     <token regexp='yes'>(مست|دست|رو|سوخته|پستان|گلیم|چرده|دل|سر|بند)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>سیاه مست</marker>
@@ -472,7 +472,7 @@ USA
                     <token>الله</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>ذبیح الله</marker>
@@ -485,7 +485,7 @@ USA
                     <token regexp='yes'>(رو|خریش)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>خنده رو</marker>
@@ -498,7 +498,7 @@ USA
                     <token regexp='yes'>(کاره|گاه)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>هیچ کاره</marker>
@@ -511,7 +511,7 @@ USA
                     <token>نامه</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>تصویب نامه</marker>
@@ -524,7 +524,7 @@ USA
                     <token regexp='yes'>(طبع|رو|دیده|چشم)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>شوخ طبع</marker>
@@ -537,7 +537,7 @@ USA
                     <token regexp='yes'>(اندیشی|ارزی|راهی|سانی|رزم|خانه|نشین|سان|بند|مرز|سایه|مسلک|زمان|معنی|گام)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>هم اندیشی</marker>
@@ -550,7 +550,7 @@ USA
                     <token regexp='yes'>(کلید|تاج|تکه)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>چل کلید</marker>
@@ -563,7 +563,7 @@ USA
                     <token regexp='yes'>(انجام|پیله|خوی|دل|زهره|عنق|قلق|کاره|گمان|گوهر|لگام|مسب|مست|مظنه|منظر|مهر|نام|نسل|نما)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>بد انجام</marker>
@@ -576,7 +576,7 @@ USA
                     <token>پز</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>زود پز</marker>
@@ -589,7 +589,7 @@ USA
                     <token regexp='yes'>(السکوت|التدریس|الزحمه)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>حق السکوت</marker>
@@ -602,7 +602,7 @@ USA
                     <token regexp='yes'>(دل|جان)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>آزرده دل</marker>
@@ -615,7 +615,7 @@ USA
                     <token regexp='yes'>(دل|خاطر|وجدان)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>آسوده دل</marker>
@@ -628,7 +628,7 @@ USA
                     <token regexp='yes'>(نفع|صلاحیت|فقار|ربط|قیمت|شعور|علاقه|حیات|فن|روح|عقل|حق)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>ذی نفع</marker>
@@ -641,7 +641,7 @@ USA
                     <token regexp='yes'>(الذکر|العاده)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>فوق الذکر</marker>
@@ -654,7 +654,7 @@ USA
                     <token regexp='yes'>(السیر|الانتقال)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>سریع السیر</marker>
@@ -667,7 +667,7 @@ USA
                     <token regexp='yes'>(بانو|زاد|ناز|نوش)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>شهر بانو</marker>
@@ -680,7 +680,7 @@ USA
                     <token regexp='yes'>(وارد|خط|نفس|کار)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>تازه وارد</marker>
@@ -693,7 +693,7 @@ USA
                     <token>دانه</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>سنگ دانه</marker>
@@ -706,7 +706,7 @@ USA
                     <token regexp='yes'>(سامان|دل|دماغ|روز)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>آشفته سامان</marker>
@@ -719,7 +719,7 @@ USA
                     <token regexp='yes'>(یمن|خوراک|خیم|رکاب|حال|مزه|حساب)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>خوش یمن</marker>
@@ -732,7 +732,7 @@ USA
                     <token>گیر</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>بهره گیر</marker>
@@ -745,7 +745,7 @@ USA
                     <token regexp='yes'>(نفس|سرشت|دامن|سیرت|منش|بخش|دیده)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>پاک نفس</marker>
@@ -758,7 +758,7 @@ USA
                     <token>ور</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>حمله ور</marker>
@@ -771,7 +771,7 @@ USA
                     <token>زاده</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>حرام زاده</marker>
@@ -784,7 +784,7 @@ USA
                     <token regexp='yes'>(طمع|طبع)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>خام طمع</marker>
@@ -797,7 +797,7 @@ USA
                     <token regexp='yes'>(روان|کام|مان|مانه)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>شاد روان</marker>
@@ -810,7 +810,7 @@ USA
                     <token>ربا</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>دل ربا</marker>
@@ -823,7 +823,7 @@ USA
                     <token regexp='yes'>(زخم|رگ|ریش|عنصر)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>سست زخم</marker>
@@ -836,7 +836,7 @@ USA
                     <token regexp='yes'>(الوزراء|الرؤسا)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>رئیس الوزراء</marker>
@@ -849,7 +849,7 @@ USA
                     <token regexp='yes'>(مغز|سنگ|عنان|روح|لقا|سایه|سنگین|دست)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>سبک مغز</marker>
@@ -862,7 +862,7 @@ USA
                     <token regexp='yes'>(بس|نشان|سوزی)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>آتش بس</marker>
@@ -875,7 +875,7 @@ USA
                     <token>دانی</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>سگ دانی</marker>
@@ -888,7 +888,7 @@ USA
                     <token regexp='yes'>(الوصول|الاجراء)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>لازم الوصول</marker>
@@ -901,7 +901,7 @@ USA
                     <token regexp='yes'>(ته|بند|بسمل)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>نیم ته</marker>
@@ -914,7 +914,7 @@ USA
                     <token regexp='yes'>(گذار|گذاری)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>پایه گذار</marker>
@@ -927,7 +927,7 @@ USA
                     <token>شکن</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>مه شکن</marker>
@@ -940,7 +940,7 @@ USA
                     <token regexp='yes'>(سال|مرد)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>بزرگ سال</marker>
@@ -953,7 +953,7 @@ USA
                     <token regexp='yes'>(ریش|سفید)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>ریش ریش</marker>
@@ -966,7 +966,7 @@ USA
                     <token regexp='yes'>(الحال|الهویه)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>معلوم الحال</marker>
@@ -979,7 +979,7 @@ USA
                     <token regexp='yes'>(سال|دیار)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>کهن سال</marker>
@@ -992,7 +992,7 @@ USA
                     <token>انگیز</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>مهر انگیز</marker>
@@ -1005,7 +1005,7 @@ USA
                     <token regexp='yes'>(رو|شور|مایه|منش|هنر)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>پر رو</marker>
@@ -1018,7 +1018,7 @@ USA
                     <token regexp='yes'>(القلب|الفکر)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>رقیق القلب</marker>
@@ -1031,7 +1031,7 @@ USA
                     <token regexp='yes'>(کور|زاده|سوز)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>اجاق کور</marker>
@@ -1044,7 +1044,7 @@ USA
                     <token regexp='yes'>(جوانمرد|خودآگاه|نجیب)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>نا جوانمرد</marker>
@@ -1057,7 +1057,7 @@ USA
                     <token regexp='yes'>(گون|کوره)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>گربه گون</marker>
@@ -1070,7 +1070,7 @@ USA
                     <token regexp='yes'>(ساییده|دوز)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>پالان ساییده</marker>
@@ -1083,7 +1083,7 @@ USA
                     <token regexp='yes'>(الجلال|العرش|القدر|القوافی|اللسانین|المجد|المکارم|المن|المناقب|المنن|النور|الوجهین|جسدین)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>ذو الجلال</marker>
@@ -1096,7 +1096,7 @@ USA
                     <token>سیرت</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>بد سیرت</marker>
@@ -1109,7 +1109,7 @@ USA
                     <token regexp='yes'>(شناس|بزن|سوار|تاز)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>یکه شناس</marker>
@@ -1122,7 +1122,7 @@ USA
                     <token regexp='yes'>(الاکناف|التحصیل|الحال)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>فارغ الاکناف</marker>
@@ -1135,7 +1135,7 @@ USA
                     <token regexp='yes'>(نی|دل|نارنجی|خیال)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>نازک نی</marker>
@@ -1148,7 +1148,7 @@ USA
                     <token regexp='yes'>(خرید|خواست|داشت|دید|گشت|یافت)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>باز خرید</marker>
@@ -1161,7 +1161,7 @@ USA
                     <token regexp='yes'>(نژاد|چهر|بند)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>پری نژاد</marker>
@@ -1174,7 +1174,7 @@ USA
                     <token regexp='yes'>(روز|انجام|پی|اختر|بخت)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>نیک روز</marker>
@@ -1187,7 +1187,7 @@ USA
                     <token regexp='yes'>(نشسته|گرفته)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>باد نشسته</marker>
@@ -1200,7 +1200,7 @@ USA
                     <token>پیشه</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>هنر پیشه</marker>
@@ -1213,7 +1213,7 @@ USA
                     <token regexp='yes'>(الحوائج)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>باب الحوائج</marker>
@@ -1226,7 +1226,7 @@ USA
                     <token regexp='yes'>(جواب|یراق)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>حاضر جواب</marker>
@@ -1239,7 +1239,7 @@ USA
                     <token regexp='yes'>(الشرایط|الاطراف)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>جامع الشرایط</marker>
@@ -1252,7 +1252,7 @@ USA
                     <token regexp='yes'>(طشت|بخت)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>نگون طشت</marker>
@@ -1265,7 +1265,7 @@ USA
                     <token>بندی</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>طبقه بندی</marker>
@@ -1278,7 +1278,7 @@ USA
                     <token regexp='yes'>(زبان|ترازو)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>چرب زبان</marker>
@@ -1291,7 +1291,7 @@ USA
                     <token>دار</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>زبانه دار</marker>
@@ -1304,7 +1304,7 @@ USA
                     <token regexp='yes'>(خو|خوی)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>تند خو</marker>
@@ -1317,7 +1317,7 @@ USA
                     <token regexp='yes'>(سوار|دست)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>چابک سوار</marker>
@@ -1330,7 +1330,7 @@ USA
                     <token regexp='yes'>(سوز|خواه)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>خود سوز</marker>
@@ -1343,7 +1343,7 @@ USA
                     <token regexp='yes'>(له|القدر)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>معظم له</marker>
@@ -1356,7 +1356,7 @@ USA
                     <token regexp='yes'>(قابل|متعهد)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>غیر قابل</marker>
@@ -1369,7 +1369,7 @@ USA
                     <token regexp='yes'>(مرگ|کسوت)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>پیش مرگ</marker>
@@ -1382,7 +1382,7 @@ USA
                     <token regexp='yes'>(سفید|سیاه|باز)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>رو سفید</marker>
@@ -1395,7 +1395,7 @@ USA
                     <token regexp='yes'>(دررو|بهادر)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>بزن دررو</marker>
@@ -1408,7 +1408,7 @@ USA
                     <token regexp='yes'>(نیامد|شد)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>آمد نیامد</marker>
@@ -1421,7 +1421,7 @@ USA
                     <token>فام</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>سفید فام</marker>
@@ -1434,7 +1434,7 @@ USA
                     <token regexp='yes'>(دل|جگر|چشم|شهر)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>خونین دل</marker>
@@ -1447,7 +1447,7 @@ USA
                     <token regexp='yes'>(نهادن|داشت|کش|گذاشت|مایه)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>فرو نهادن</marker>
@@ -1460,7 +1460,7 @@ USA
                     <token regexp='yes'>(گم|گرد|فراخ|سپید|نوشت)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>پی گم</marker>
@@ -1473,7 +1473,7 @@ USA
                     <token regexp='yes'>(یکی|سیاه|لیس)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>کاسه یکی</marker>
@@ -1486,7 +1486,7 @@ USA
                     <token regexp='yes'>(فال|آثار|بخت)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>همایون فال</marker>
@@ -1499,7 +1499,7 @@ USA
                     <token>بان</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>کشتی بان</marker>
@@ -1512,7 +1512,7 @@ USA
                     <token regexp='yes'>(برجی|تخمه|سره|قلو|به‌شک)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>دو برجی</marker>
@@ -1525,7 +1525,7 @@ USA
                     <token>پاره</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>تکه پاره</marker>
@@ -1538,7 +1538,7 @@ USA
                     <token regexp='yes'>(الالباب|الامر|العزم)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>اولو الالباب</marker>
@@ -1551,7 +1551,7 @@ USA
                     <token regexp='yes'>(آموخته|پژوه|آموختگی)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>دانش آموخته</marker>
@@ -1564,7 +1564,7 @@ USA
                     <token regexp='yes'>(النهرین|الملل|الممالک)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>بین النهرین</marker>
@@ -1577,7 +1577,7 @@ USA
                     <token regexp='yes'>(روی|رو|نظام)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>پیاده روی</marker>
@@ -1590,7 +1590,7 @@ USA
                     <token>خوار</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>آدم خوار</marker>
@@ -1603,7 +1603,7 @@ USA
                     <token regexp='yes'>(مرد|وار)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>آزاد مرد</marker>
@@ -1616,7 +1616,7 @@ USA
                     <token>فطرت</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>نیک فطرت</marker>
@@ -1629,7 +1629,7 @@ USA
                     <token>عام</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>قتل عام</marker>
@@ -1642,7 +1642,7 @@ USA
                     <token regexp='yes'>(ورمالیده|گیر)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>پاچه ورمالیده</marker>
@@ -1655,7 +1655,7 @@ USA
                     <token regexp='yes'>(معلق|خشک|گنده|خر|شق|پوک)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>کله معلق</marker>
@@ -1668,7 +1668,7 @@ USA
                     <token>سازی</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>ایمن سازی</marker>
@@ -1681,7 +1681,7 @@ USA
                     <token>الله</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>اولیاء الله</marker>
@@ -1694,7 +1694,7 @@ USA
                     <token>خوانده</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>مادر خوانده</marker>
@@ -1707,7 +1707,7 @@ USA
                     <token regexp='yes'>(کندوری|رو|شکم|بال|کام|دیده|سخن|آهنگ|عیش|دست|سال|آستین|شلوار|بر|زیست|ابرو|روزی)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>فراخ کندوری</marker>
@@ -1720,7 +1720,7 @@ USA
                     <token>نگار</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>چهره نگار</marker>
@@ -1733,7 +1733,7 @@ USA
                     <token>ساز</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>مستند ساز</marker>
@@ -1746,7 +1746,7 @@ USA
                     <token regexp='yes'>(نهاد|خلق|کلاه|پلاس)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>کج نهاد</marker>
@@ -1759,7 +1759,7 @@ USA
                     <token>متر</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>کیلو متر</marker>
@@ -1772,7 +1772,7 @@ USA
                     <token regexp='yes'>(پذیر|ناپذیر)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>برگشت پذیر</marker>
@@ -1785,7 +1785,7 @@ USA
                     <token>نویس</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>خود نویس</marker>
@@ -1798,7 +1798,7 @@ USA
                     <token regexp='yes'>(نما|نشان|پیچ)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>انگشت نما</marker>
@@ -1811,7 +1811,7 @@ USA
                     <token>گذار</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>بار گذار</marker>
@@ -1824,7 +1824,7 @@ USA
                     <token regexp='yes'>(خدا|بانو)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>کد خدا</marker>
@@ -1837,7 +1837,7 @@ USA
                     <token>پرست</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>شیطان پرست</marker>
@@ -1850,7 +1850,7 @@ USA
                     <token regexp='yes'>(روا|بر)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>فرمان روا</marker>
@@ -1863,7 +1863,7 @@ USA
                     <token regexp='yes'>(قلمدان|قشمشم|بنویس)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>میرزا قلمدان</marker>
@@ -1876,7 +1876,7 @@ USA
                     <token regexp='yes'>(برداری|مند|کشی|گیری|دهی)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>بهره برداری</marker>
@@ -1889,7 +1889,7 @@ USA
                     <token regexp='yes'>(توز|ورز)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>کینه توز</marker>
@@ -1902,7 +1902,7 @@ USA
                     <token>گشا</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>دل گشا</marker>
@@ -1915,7 +1915,7 @@ USA
                     <token regexp='yes'>(خور|روی)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>فرا خور</marker>
@@ -1928,7 +1928,7 @@ USA
                     <token regexp='yes'>(رنگ|باره)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>شب رنگ</marker>
@@ -1941,7 +1941,7 @@ USA
                     <token regexp='yes'>(کننده|کنندگی)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>گرم کننده</marker>
@@ -1954,7 +1954,7 @@ USA
                     <token regexp='yes'>(آوری|بندی)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>جمع آوری</marker>
@@ -1967,7 +1967,7 @@ USA
                     <token regexp='yes'>(فروش|آسان)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>تن فروش</marker>
@@ -1980,7 +1980,7 @@ USA
                     <token regexp='yes'>(لقا|دیم|فال|پی)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>فرخ لقا</marker>
@@ -1993,7 +1993,7 @@ USA
                     <token regexp='yes'>(کمان|قیطان)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>ابرو کمان</marker>
@@ -2006,7 +2006,7 @@ USA
                     <token>دان</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>فیزیک دان</marker>
@@ -2019,7 +2019,7 @@ USA
                     <token regexp='yes'>(آورد|خورد|داشت|هم)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>بر آورد</marker>
@@ -2032,7 +2032,7 @@ USA
                     <token regexp='yes'>(گوش|پهلو)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>آکنده گوش</marker>
@@ -2045,7 +2045,7 @@ USA
                     <token regexp='yes'>(کار|دل|رو|دست)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>گشاده کار</marker>
@@ -2058,7 +2058,7 @@ USA
                     <token>گون</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>ناهم گون</marker>
@@ -2071,7 +2071,7 @@ USA
                     <token regexp='yes'>(دهن|خور|پز)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>آش دهن</marker>
@@ -2084,7 +2084,7 @@ USA
                     <token regexp='yes'>(نویس|خوش|پاچه|چین|آورد)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>دست نویس</marker>
@@ -2097,7 +2097,7 @@ USA
                     <token>مند</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>وفا مند</marker>
@@ -2110,7 +2110,7 @@ USA
                     <token regexp='yes'>(برجا|برهنه|بست|پتی|کار)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>پا برجا</marker>
@@ -2123,7 +2123,7 @@ USA
                     <token regexp='yes'>(الارحام|الاذناب)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>ذوات الارحام</marker>
@@ -2136,7 +2136,7 @@ USA
                     <token regexp='yes'>(لت|انبان|انبار)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>لت لت</marker>
@@ -2149,7 +2149,7 @@ USA
                     <token>گون</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>گل گون</marker>
@@ -2162,7 +2162,7 @@ USA
                     <token regexp='yes'>(ابالی|جون|کردار|مذهب|مروت|یتغیر|یتناهی|یزال|یعقل)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>لا ابالی</marker>
@@ -2175,7 +2175,7 @@ USA
                     <token regexp='yes'>(واپیچ|پیچ)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>پیچ واپیچ</marker>
@@ -2188,7 +2188,7 @@ USA
                     <token regexp='yes'>(سخت|جانی)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>جان سخت</marker>
@@ -2201,7 +2201,7 @@ USA
                     <token regexp='yes'>(الیوم|الوقت|السبیل|عباس)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>ابن الیوم</marker>
@@ -2214,7 +2214,7 @@ USA
                     <token regexp='yes'>(عقل|دهن)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>شیرین عقل</marker>
@@ -2227,7 +2227,7 @@ USA
                     <token regexp='yes'>(سرا|تاش)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>خواجه سرا</marker>
@@ -2240,7 +2240,7 @@ USA
                     <token>زن</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>ناقاره زن</marker>
@@ -2253,7 +2253,7 @@ USA
                     <token regexp='yes'>(مغز|سایه|قدر|رکاب|سرشت|پایه|قیمت|روح|سنگ|جان|سر)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>گران مغز</marker>
@@ -2266,7 +2266,7 @@ USA
                     <token regexp='yes'>(نظیر|دل|محل|بضاعت|کار|اصل|کم)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
                 <example type='incorrect'>
                     <marker>کم نظیر</marker>
@@ -2281,7 +2281,7 @@ USA
                     <token>کش</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>لحاف کش</marker>
@@ -2294,7 +2294,7 @@ USA
                     <token>زنک</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>خاله زنک</marker>
@@ -2307,7 +2307,7 @@ USA
                     <token>لله</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>بقیة لله</marker>
@@ -2320,7 +2320,7 @@ USA
                     <token>کاری</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>اندود کاری</marker>
@@ -2333,7 +2333,7 @@ USA
                     <token>مزاج</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>زنگی مزاج</marker>
@@ -2346,7 +2346,7 @@ USA
                     <token>آوار</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>صف آوار</marker>
@@ -2359,7 +2359,7 @@ USA
                     <token>المدت</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>طویل المدت</marker>
@@ -2372,7 +2372,7 @@ USA
                     <token>راستکی</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>راست راستکی</marker>
@@ -2385,7 +2385,7 @@ USA
                     <token>کشی</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>نسل کشی</marker>
@@ -2398,7 +2398,7 @@ USA
                     <token>فهم</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>چیز فهم</marker>
@@ -2411,7 +2411,7 @@ USA
                     <token>والاخون</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>آلاخون والاخون</marker>
@@ -2424,7 +2424,7 @@ USA
                     <token>گیر</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>کشتی گیر</marker>
@@ -2437,7 +2437,7 @@ USA
                     <token>دل</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>پراگنده دل</marker>
@@ -2450,7 +2450,7 @@ USA
                     <token>مآب</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>فرنگی مآب</marker>
@@ -2463,7 +2463,7 @@ USA
                     <token>اختر</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>شوم اختر</marker>
@@ -2476,7 +2476,7 @@ USA
                     <token>بست</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>بن بست</marker>
@@ -2489,7 +2489,7 @@ USA
                     <token>غایت</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>به غایت</marker>
@@ -2502,7 +2502,7 @@ USA
                     <token>النظیر</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>عدیم النظیر</marker>
@@ -2515,7 +2515,7 @@ USA
                     <token>پرداز</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>نظریه پرداز</marker>
@@ -2528,7 +2528,7 @@ USA
                     <token>بخش</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>جهان بخش</marker>
@@ -2541,7 +2541,7 @@ USA
                     <token>تن</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>رویین تن</marker>
@@ -2554,7 +2554,7 @@ USA
                     <token>رنگ</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>رنگا رنگ</marker>
@@ -2567,7 +2567,7 @@ USA
                     <token>سر</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>آسیمه سر</marker>
@@ -2580,7 +2580,7 @@ USA
                     <token>سال</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>خرد سال</marker>
@@ -2593,7 +2593,7 @@ USA
                     <token>الخط</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>رسم الخط</marker>
@@ -2606,7 +2606,7 @@ USA
                     <token>خو</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>درشت خو</marker>
@@ -2619,7 +2619,7 @@ USA
                     <token>شاخ</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>صد شاخ</marker>
@@ -2632,7 +2632,7 @@ USA
                     <token>روز</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>تیره روز</marker>
@@ -2645,7 +2645,7 @@ USA
                     <token>شانه</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>چهار شانه</marker>
@@ -2658,7 +2658,7 @@ USA
                     <token>الزاویه</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>قایم الزاویه</marker>
@@ -2671,7 +2671,7 @@ USA
                     <token>الرقاب</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>مالک الرقاب</marker>
@@ -2684,7 +2684,7 @@ USA
                     <token>خرج</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>ول خرج</marker>
@@ -2697,7 +2697,7 @@ USA
                     <token>شنو</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>حرف شنو</marker>
@@ -2710,7 +2710,7 @@ USA
                     <token>المنفعه</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>عام المنفعه</marker>
@@ -2723,7 +2723,7 @@ USA
                     <token>دیده</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>شوی دیده</marker>
@@ -2736,7 +2736,7 @@ USA
                     <token>باور</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>زود باور</marker>
@@ -2749,7 +2749,7 @@ USA
                     <token>پرست</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>یکتا پرست</marker>
@@ -2762,7 +2762,7 @@ USA
                     <token>تنگ</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>تنگا تنگ</marker>
@@ -2775,7 +2775,7 @@ USA
                     <token>دل</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>تاریک دل</marker>
@@ -2788,7 +2788,7 @@ USA
                     <token>پرکن</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>هرکن پرکن</marker>
@@ -2801,7 +2801,7 @@ USA
                     <token>العالمین</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>رحمت العالمین</marker>
@@ -2814,7 +2814,7 @@ USA
                     <token>سالار</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>سابقه سالار</marker>
@@ -2827,7 +2827,7 @@ USA
                     <token>الخضرا</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>قبة الخضرا</marker>
@@ -2840,7 +2840,7 @@ USA
                     <token>بخش</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>پاس بخش</marker>
@@ -2853,7 +2853,7 @@ USA
                     <token>خاطر</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>بار خاطر</marker>
@@ -2866,7 +2866,7 @@ USA
                     <token>کش</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>جرعه کش</marker>
@@ -2879,7 +2879,7 @@ USA
                     <token>وارنگ</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>رنگ وارنگ</marker>
@@ -2892,7 +2892,7 @@ USA
                     <token>زده</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>حیرت زده</marker>
@@ -2905,7 +2905,7 @@ USA
                     <token>دست</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>چیره دست</marker>
@@ -2918,7 +2918,7 @@ USA
                     <token>الغیب</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>لسان الغیب</marker>
@@ -2931,7 +2931,7 @@ USA
                     <token>گوشه</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>کلاه گوشه</marker>
@@ -2944,7 +2944,7 @@ USA
                     <token regexp='yes'>(سوز|خواه)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>خود سوز</marker>
@@ -2957,7 +2957,7 @@ USA
                     <token>خشک</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>ناخن خشک</marker>
@@ -2970,7 +2970,7 @@ USA
                     <token>نقو</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>نق نقو</marker>
@@ -2983,7 +2983,7 @@ USA
                     <token>الخمر</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>دایم الخمر</marker>
@@ -2996,7 +2996,7 @@ USA
                     <token>اندازی</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>راه اندازی</marker>
@@ -3009,7 +3009,7 @@ USA
                     <token>بدید</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>ندید بدید</marker>
@@ -3022,7 +3022,7 @@ USA
                     <token>آوازه</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>بلند آوازه</marker>
@@ -3035,7 +3035,7 @@ USA
                     <token>الذکر</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>سابق الذکر</marker>
@@ -3048,7 +3048,7 @@ USA
                     <token>سالار</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>قافله سالار</marker>
@@ -3061,7 +3061,7 @@ USA
                     <token>روزی</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>شبانه روزی</marker>
@@ -3074,7 +3074,7 @@ USA
                     <token>نسب</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>عالی نسب</marker>
@@ -3087,7 +3087,7 @@ USA
                     <token>الارض</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>طی الارض</marker>
@@ -3100,7 +3100,7 @@ USA
                     <token>وار</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>عیال وار</marker>
@@ -3113,7 +3113,7 @@ USA
                     <token>تیش</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>تی تیش</marker>
@@ -3126,7 +3126,7 @@ USA
                     <token>فرش</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>سنگ فرش</marker>
@@ -3139,7 +3139,7 @@ USA
                     <token>باران</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>گلوله باران</marker>
@@ -3152,7 +3152,7 @@ USA
                     <token regexp='yes'>(پدیا|مدیا|انبار|واژه|نبشته|خبر|کتاب|داده|دیتا|سفر|تراول|دانشگاه)</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>ویکی پدیا</marker>
@@ -3165,7 +3165,7 @@ USA
                     <token>غلوط</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>غلط غلوط</marker>
@@ -3178,7 +3178,7 @@ USA
                     <token>دررفته</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>زوار دررفته</marker>
@@ -3191,7 +3191,7 @@ USA
                     <token>برگشته</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>اجل برگشته</marker>
@@ -3204,7 +3204,7 @@ USA
                     <token>باشی</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>حکیم باشی</marker>
@@ -3217,7 +3217,7 @@ USA
                     <token>خوان</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>ابجد خوان</marker>
@@ -3230,7 +3230,7 @@ USA
                     <token>الذمه</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>مشغول الذمه</marker>
@@ -3243,7 +3243,7 @@ USA
                     <token>باز</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>دودوزه باز</marker>
@@ -3256,7 +3256,7 @@ USA
                     <token>قاطی</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>قره قاطی</marker>
@@ -3269,7 +3269,7 @@ USA
                     <token>گرد</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>دندان گرد</marker>
@@ -3282,7 +3282,7 @@ USA
                     <token>پنجه</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>قوی پنجه</marker>
@@ -3295,7 +3295,7 @@ USA
                     <token>افزار</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>سخت افزار</marker>
@@ -3308,7 +3308,7 @@ USA
                     <token>البدل</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>علی البدل</marker>
@@ -3321,7 +3321,7 @@ USA
                     <token>چشم</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>تنگ چشم</marker>
@@ -3334,7 +3334,7 @@ USA
                     <token>کلفت</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>دم کلفت</marker>
@@ -3347,7 +3347,7 @@ USA
                     <token>افگار</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>دل افگار</marker>
@@ -3360,7 +3360,7 @@ USA
                     <token>الاختیار</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>تام الاختیار</marker>
@@ -3373,7 +3373,7 @@ USA
                     <token>گرد</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>عقب گرد</marker>
@@ -3386,7 +3386,7 @@ USA
                     <token>بند</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>شکم بند</marker>
@@ -3399,7 +3399,7 @@ USA
                     <token>وار</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>طوطی وار</marker>
@@ -3412,7 +3412,7 @@ USA
                     <token>چاک</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>سینه چاک</marker>
@@ -3425,7 +3425,7 @@ USA
                     <token>طلعت</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>ماه طلعت</marker>
@@ -3438,7 +3438,7 @@ USA
                     <token>لمبو</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>آب لمبو</marker>
@@ -3451,7 +3451,7 @@ USA
                     <token>شوربا</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>شلم شوربا</marker>
@@ -3464,7 +3464,7 @@ USA
                     <token>الوقوع</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>قریب الوقوع</marker>
@@ -3477,7 +3477,7 @@ USA
                     <token>گرا</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>ملی گرا</marker>
@@ -3490,7 +3490,7 @@ USA
                     <token>گرد</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>گردا گرد</marker>
@@ -3503,7 +3503,7 @@ USA
                     <token>مهر</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>سربه مهر</marker>
@@ -3516,7 +3516,7 @@ USA
                     <token>پنجه</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>آتشین پنجه</marker>
@@ -3529,7 +3529,7 @@ USA
                     <token>السافلین</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>اسفل السافلین</marker>
@@ -3542,7 +3542,7 @@ USA
                     <token>گونه</token>
                 </pattern>
                 <message>آیا منظور شما
-                    <suggestion>\1&#8204;\2</suggestion>است؟</message>
+                     <suggestion>\1&#8204;\2</suggestion> است؟</message>
                 <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>ابله گونه</marker>
