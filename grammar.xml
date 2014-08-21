@@ -74,7 +74,7 @@ USA
     <category name="قرارگرفتن نشانه‌ها کنار هم مجاز نیست" type="misspelling">
         <rule id="FixDoubleMarks" name="قرارگرفتن نشانه‌ها کنار هم مجاز نیست">
             <pattern>
-                <token regexp='yes'>([\.\?!:;\-—’”'",؟؛]){2,}</token>
+                <token regexp='yes'>([\.\?!:;\-—’”'",؟؛،٬٫]){2,}</token>
                 <token></token>
             </pattern>
             <message>آیا منظور شما
