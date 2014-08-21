@@ -6,7 +6,7 @@ We're collecting persian words' dictionary (verbs, nouns, and etc.) for Persian 
 Words Collected from These Ways
 -------------------------------
 
-1. Conjugating simple verbs<sup>[[1]](#Conjugation-of-Verbs)</sup> based on Persian grammar
+1. Conjugating simple verbs<sup>[[1]](#conjugation-of-verbs)</sup> based on Persian grammar
 2. Collecting words from following websites
     * https://fa.wikipedia.org (Only featured articles)
     * News agencies (Only words which are repeated more than 10 times in 300MB dumped text)
