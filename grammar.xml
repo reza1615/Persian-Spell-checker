@@ -64,7 +64,7 @@ USA
             </pattern>
             <message>آیا منظور شما
                  <suggestion>\1&#8204;\2</suggestion> است؟</message>
-            <short>فاصلهٔ «تر و ترین» را با کلمهٔ قبل حذف کنید</short>
+            <short>حذف فاصلهٔ «تر و ترین» با واژه قبل</short>
             <example type='incorrect'>
                 <marker>سرشناس تر</marker>
             </example>
@@ -84,6 +84,21 @@ USA
                 <marker>کلمه ها</marker>
             </example>
             <example type='correct'>کلمه‌ها</example>
+        </rule>
+    </category>
+    <category name="هر حرف فقط یک تنوین می‌پذیرد" type="misspelling">
+        <rule id="FixDoubleTanvin" name="هر حرف فقط یک تنوین می‌پذیرد">
+            <pattern>
+                <token regexp='yes'>(.)</token>
+                <token regexp='yes'>([\u0652\u064c\u064d\u064b\u064f\u0650\u064e\u0651]){2,}</token>
+            </pattern>
+            <message>آیا منظور شما
+                 <suggestion>\1\2</suggestion> است؟</message>
+            <short>تنوین اضافی را حذف کنید</short>
+            <example type='incorrect'>
+                <marker>رسماًً</marker>
+            </example>
+            <example type='correct'>رسماً</example>
         </rule>
     </category>
     <category name="فاصلهٔ مجازی اضافی" type="misspelling">
