@@ -104,7 +104,7 @@ USA
     <category name="هر حرف فقط یک تنوین می‌پذیرد" type="misspelling">
         <rule id="FixDoubleTanvin" name="هر حرف فقط یک تنوین می‌پذیرد">
             <pattern>
-                <token regexp='yes'>(.)</token>
+                <token></token>
                 <token regexp='yes'>([\u0652\u064c\u064d\u064b\u064f\u0650\u064e\u0651]){2,}</token>
             </pattern>
             <message>آیا منظور شما
@@ -116,6 +116,60 @@ USA
             <example type='correct'>رسماً</example>
         </rule>
     </category>
+    <rulegroup id="ReplaceEnglishMarks" name="نشانه‌های فارسی جای نشانه‌های انگلیسی">
+        <rule>
+            <pattern>
+                <token>?</token>
+                <token></token>
+            </pattern>
+            <message>آیا منظور شما
+                 <suggestion>؟</suggestion> است؟</message>
+            <short>از نشانه فارسی استفاده کنید</short>
+            <example type='incorrect'>
+                <marker>سلام?</marker>
+            </example>
+            <example type='correct'>سلام؟</example>
+        </rule>
+        <rule>
+            <pattern>
+                <token regexp='yes'>,\s</token>
+                <token></token>
+            </pattern>
+            <message>آیا منظور شما
+                 <suggestion>،</suggestion> است؟</message>
+            <short>از نشانه فارسی استفاده کنید</short>
+            <example type='incorrect'>
+                <marker>درست, ولی</marker>
+            </example>
+            <example type='correct'>درست، ولی</example>
+        </rule>
+        <rule>
+            <pattern>
+                <token regexp='yesy'>([۰-۹]+)\.([۰-۹]+)</token>
+                <token></token>
+            </pattern>
+            <message>آیا منظور شما
+                 <suggestion>\1٫\2</suggestion> است؟</message>
+            <short>از نشانه فارسی استفاده کنید</short>
+            <example type='incorrect'>
+                <marker>۱۹.۷۵</marker>
+            </example>
+            <example type='correct'>۱۹٫۷۵</example>
+        </rule>
+        <rule>
+            <pattern>
+                <token regexp='yesy'>,([۰-۹]+)</token>
+                <token></token>
+            </pattern>
+            <message>آیا منظور شما
+                 <suggestion>٬\1</suggestion> است؟</message>
+            <short>از نشانه فارسی استفاده کنید</short>
+            <example type='incorrect'>
+                <marker>۱,۹۹۹</marker>
+            </example>
+            <example type='correct'>۱٬۹۹۹</example>
+        </rule>
+    </rulegroup>
     <category name="فاصلهٔ مجازی اضافی" type="misspelling">
         <rule id="Bad_ZWNJ_1" name="فاصلهٔ مجازی بعد از کارکترهایی که لازم ندارند">
             <pattern>
