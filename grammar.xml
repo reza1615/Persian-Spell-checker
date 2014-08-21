@@ -56,6 +56,21 @@ USA
             <example type='correct'>می‌ورزند</example>
         </rule>
     </category>
+    <rulegroup id="RemoveAdditionSpace" name="حذف فاصله‌های اضافی" type="misspelling">
+        <rule>
+            <pattern>
+                <token regexp='yes'>(.+)\s([.،؟!])</token>
+                <token></token>
+            </pattern>
+            <message>آیا منظور شما
+                 <suggestion>\1\2</suggestion> است؟</message>
+            <short>فاصله پیش از نشانه را حذف کنید</short>
+            <example type='incorrect'>
+                <marker>است .</marker>
+            </example>
+            <example type='correct'>است.</example>
+        </rule>
+    </rulegroup>
     <category name="فاصلهٔ مجازی برای «تر و ترین»" type="misspelling">
         <rule id="Tar_Tarin_Fix" name="فاصلهٔ مجازی برای «تر و ترین»">
             <pattern>
