@@ -116,6 +116,34 @@ USA
             <example type='correct'>رسماً</example>
         </rule>
     </category>
+    <rulegroup id="FixThreeDotsAndSingleDot" name="اصلاح سه نقطه و یک نقطه">
+        <rule>
+            <pattern>
+                <token regexp='yes'>\.{4,}</token>
+                <token></token>
+            </pattern>
+            <message>آیا منظور شما
+                 <suggestion>...</suggestion> است؟</message>
+            <short>از سه نقطه استفاده کنید</short>
+            <example type='incorrect'>
+                <marker>ولی....</marker>
+            </example>
+            <example type='correct'>ولی...</example>
+        </rule>
+        <rule>
+            <pattern>
+                <token regexp='yes'>(?<!\.)\.{2}[^.]</token>
+                <token></token>
+            </pattern>
+            <message>آیا منظور شما
+                 <suggestion>.</suggestion> است؟</message>
+            <short>از یک نقطه استفاده کنید</short>
+            <example type='incorrect'>
+                <marker>است..</marker>
+            </example>
+            <example type='correct'>است.</example>
+        </rule>
+    </rulegroup>
     <rulegroup id="ReplaceEnglishMarks" name="نشانه‌های فارسی جای نشانه‌های انگلیسی">
         <rule>
             <pattern>
