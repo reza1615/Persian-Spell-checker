@@ -71,6 +71,21 @@ USA
             <example type='correct'>سرشناس‌تر</example>
         </rule>
     </category>
+    <category name="قرارگرفتن نشانه‌ها کنار هم مجاز نیست" type="misspelling">
+        <rule id="FixDoubleMarks" name="قرارگرفتن نشانه‌ها کنار هم مجاز نیست">
+            <pattern>
+                <token regexp='yes'>([\.\?!:;\-—’”'",؟؛]){2,}</token>
+                <token></token>
+            </pattern>
+            <message>آیا منظور شما
+                 <suggestion>\1</suggestion> است؟</message>
+            <short>یکی از نشانه‌ها را حذف کنید</short>
+            <example type='incorrect'>
+                <marker>عجب!!</marker>
+            </example>
+            <example type='correct'>عجب!</example>
+        </rule>
+    </category>
     <category name="فاصلهٔ مجازی برای «ها» جمع" type="misspelling">
         <rule id="PluralFix" name="فاصله مجازی برای «ها»">
             <pattern>
