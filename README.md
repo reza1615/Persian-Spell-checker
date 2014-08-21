@@ -1,47 +1,64 @@
 Persian-Spell-checker
 =====================
 
-We collected persian words' Dictionary (verb, noun ,...) for persian spell checker
+We're collecting persian words' dictionary (verbs, nouns, and etc.) for Persian spell checker.
 
-Collected words by these methods:
+Words Collected from These Ways
+-------------------------------
 
-1-Persian simple verbes generating based on Persian Grammar : (32,325 verbs)
+1. Conjugating simple verbs<sup>[[1]](#Conjugation_of_Verbs)</sup> based on Persian grammar
+2. Collecting words from following websites
+    * https://fa.wikipedia.org (Only featured articles)
+    * News agencies (Only words which are repeated more than 10 times in 300MB dumped text)
+3. Moin Encyclopedia (Only key words)
+
+Conjugation of Verbs
+--------------------
+
+* Present tense: Simple, Continuous, Negation continuous, Implicit, and Negation implicit
+* Negation verb, Imperative mood
+* Past tense: Simple, Present perfect, Past away, Continuous, and Negation continuous
+* Gerund
+
+Statistics _(8/21/2014)_
+----------
+
+* 32,325 Verbs
+* 3,172 Adjectives
+
+Licence
+-------
+
+Distributed under the terms of the GNU Lesser General Public License (LGPL 2.1).
+
 <div dir="rtl">
-صرف افعال:
+ما واژه‌نامه واژه‌های فارسی (افعال، اسامی، و غیره) را جمع‌آوری می‌کنیم.
 
-مضارع:ساده- استمراری-استمراری منفی--التزامی-التزامی منفی-
+واژه‌ها از راه‌های زیر جمع گشته‌اند
+--------------------------------
 
-فعل نفی- امر
+1. صرف‌کردن افعال ساده<sup>[[1]](#صرف_افعال)</sup> بر اساس دستور زبان فارسی
+2. جمع‌آوری واژه‌ها از وب‌گاه‌های زیر
+    * https://fa.wikipedia.org (فقط مقاله‌های برگزیده)
+	* خبرگزاری‌ها (فقط واژه‌هایی که بیش از ۱۰ بار در متن روگرفت‌شدهٔ ۳۰۰ مگابایتی تکرار شده‌اند)
+	* دانشنامه معین (فقط واژه‌های کلیدی)
 
-ماضی:ساده-نقلی-بعید- استمراری- استمرای منفی
+صرف افعال
+---------
 
-اسم مصدر
+* حال: ساده، استمراری، استمراری منفی، التزامی، و التزامی منفی
+* فعل منفی، امری
+* گذشته: ساده، نقلی، بعید، استمراری، و استمراری منفی
+* اسم مصدر
+
+آمار _(۳۰/۵/۱۳۹۳)_
+----
+
+* ۳۲٬۳۲۵ فعل
+* ۳٬۱۷۲ صفت
+
+پروانه
+------
+
+توزیع‌شده تحت شرایط GNU Lesser General Public License (LGPL ۲٫۱).
 </div>
-2-persian words collected from web
-
-2-1-fa.wikipedia (Featured_articles)
-
-2-2-Persian News agencies websites (Words which are repeated more than 10 times in 300MB dumped text)
-
-3-Moin dictionay key words
-
-
-Licence:
-
-Distributed under the terms of the GNU Lesser General Public License (LGPL 2.1)
-
-<div dir="rtl">
-
-بانک واژگان و کلمات فارسی برگرفته از
-
-1-وب سایت های معتبر زبان فارسی 
-
-1-1-کلمات برگرفته از وبگاه خبرگزاری های فارسی و انتخاب کلماتی که بیش از ده بار در متن 300 مگابایتی تکرار شده بودند
-
-1-2-انتخاب کلمات موجود در مقالات خوب و برگزیده ویکی پدیای فارسی و انتخاب کلماتی که بیش از 10 بار تکرار شده بودند
-
-2-صرف افعال ساده فارسی بر اسا اصول گرامر زبان فارسی
-
-3-کلیدواژه های فرهنگ معین
-
-مجوز استفاده این بانک واژگان GNU Lesser General Public License (LGPL 2.1) می باشد.
