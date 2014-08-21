@@ -109,11 +109,11 @@ USA
             </pattern>
             <message>آیا منظور شما
                  <suggestion>\1&#8204;ها</suggestion> است؟</message>
-            <short>فاصلهٔ «ها» را با کلمهٔ قبل حذف کنید</short>
+            <short>فاصلهٔ «ها» را با واژهٔ قبل حذف کنید</short>
             <example type='incorrect'>
-                <marker>کلمه ها</marker>
+                <marker>واژه ها</marker>
             </example>
-            <example type='correct'>کلمه‌ها</example>
+            <example type='correct'>واژه‌ها</example>
         </rule>
     </category>
     <category name="هر حرف فقط یک تنوین می‌پذیرد" type="misspelling">
@@ -305,7 +305,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>خون آشام</marker>
                 </example>
@@ -318,7 +318,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>تفریق گر</marker>
                 </example>
@@ -331,7 +331,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>دائم الصوم</marker>
                 </example>
@@ -344,7 +344,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>نام نویس</marker>
                 </example>
@@ -357,7 +357,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>پای آور</marker>
                 </example>
@@ -370,7 +370,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>انسان شناس</marker>
                 </example>
@@ -383,7 +383,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>نقاره چی</marker>
                 </example>
@@ -396,7 +396,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>دو پایه</marker>
                 </example>
@@ -409,7 +409,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>کاه دزد</marker>
                 </example>
@@ -422,7 +422,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>روز افزون</marker>
                 </example>
@@ -435,7 +435,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>طیف سنج</marker>
                 </example>
@@ -448,7 +448,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>ابر آلود</marker>
                 </example>
@@ -461,7 +461,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>تیز پا</marker>
                 </example>
@@ -474,7 +474,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>ابو العجب</marker>
                 </example>
@@ -487,7 +487,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>با پرستیژ</marker>
                 </example>
@@ -500,7 +500,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>خوش رو</marker>
                 </example>
@@ -513,7 +513,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>شکسته ناخن</marker>
                 </example>
@@ -526,7 +526,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>چادر نشین</marker>
                 </example>
@@ -539,7 +539,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>همه کاره</marker>
                 </example>
@@ -552,7 +552,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>پایین تر</marker>
                 </example>
@@ -565,7 +565,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>می دانستم</marker>
                 </example>
@@ -578,7 +578,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>گل چهره</marker>
                 </example>
@@ -591,7 +591,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>بی نهایت</marker>
                 </example>
@@ -604,7 +604,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>ذوی القربی</marker>
                 </example>
@@ -617,7 +617,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>سیاه مست</marker>
                 </example>
@@ -630,7 +630,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>ذبیح الله</marker>
                 </example>
@@ -643,7 +643,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>خنده رو</marker>
                 </example>
@@ -656,7 +656,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>هیچ کاره</marker>
                 </example>
@@ -669,7 +669,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>تصویب نامه</marker>
                 </example>
@@ -682,7 +682,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>شوخ طبع</marker>
                 </example>
@@ -695,7 +695,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>هم اندیشی</marker>
                 </example>
@@ -708,7 +708,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>چل کلید</marker>
                 </example>
@@ -721,7 +721,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>بد انجام</marker>
                 </example>
@@ -734,7 +734,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>زود پز</marker>
                 </example>
@@ -747,7 +747,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>حق السکوت</marker>
                 </example>
@@ -760,7 +760,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>آزرده دل</marker>
                 </example>
@@ -773,7 +773,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>آسوده دل</marker>
                 </example>
@@ -786,7 +786,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>ذی نفع</marker>
                 </example>
@@ -799,7 +799,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>فوق الذکر</marker>
                 </example>
@@ -812,7 +812,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>سریع السیر</marker>
                 </example>
@@ -825,7 +825,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>شهر بانو</marker>
                 </example>
@@ -838,7 +838,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>تازه وارد</marker>
                 </example>
@@ -851,7 +851,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>سنگ دانه</marker>
                 </example>
@@ -864,7 +864,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>آشفته سامان</marker>
                 </example>
@@ -877,7 +877,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>خوش یمن</marker>
                 </example>
@@ -890,7 +890,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>بهره گیر</marker>
                 </example>
@@ -903,7 +903,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>پاک نفس</marker>
                 </example>
@@ -916,7 +916,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>حمله ور</marker>
                 </example>
@@ -929,7 +929,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>حرام زاده</marker>
                 </example>
@@ -942,7 +942,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>خام طمع</marker>
                 </example>
@@ -955,7 +955,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>شاد روان</marker>
                 </example>
@@ -968,7 +968,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>دل ربا</marker>
                 </example>
@@ -981,7 +981,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>سست زخم</marker>
                 </example>
@@ -994,7 +994,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>رئیس الوزراء</marker>
                 </example>
@@ -1007,7 +1007,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>سبک مغز</marker>
                 </example>
@@ -1020,7 +1020,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>آتش بس</marker>
                 </example>
@@ -1033,7 +1033,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>سگ دانی</marker>
                 </example>
@@ -1046,7 +1046,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>لازم الوصول</marker>
                 </example>
@@ -1059,7 +1059,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>نیم ته</marker>
                 </example>
@@ -1072,7 +1072,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>پایه گذار</marker>
                 </example>
@@ -1085,7 +1085,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>مه شکن</marker>
                 </example>
@@ -1098,7 +1098,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>بزرگ سال</marker>
                 </example>
@@ -1111,7 +1111,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>ریش ریش</marker>
                 </example>
@@ -1124,7 +1124,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>معلوم الحال</marker>
                 </example>
@@ -1137,7 +1137,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>کهن سال</marker>
                 </example>
@@ -1150,7 +1150,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>مهر انگیز</marker>
                 </example>
@@ -1163,7 +1163,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>پر رو</marker>
                 </example>
@@ -1176,7 +1176,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>رقیق القلب</marker>
                 </example>
@@ -1189,7 +1189,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>اجاق کور</marker>
                 </example>
@@ -1202,7 +1202,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>نا جوانمرد</marker>
                 </example>
@@ -1215,7 +1215,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>گربه گون</marker>
                 </example>
@@ -1228,7 +1228,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>پالان ساییده</marker>
                 </example>
@@ -1241,7 +1241,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>ذو الجلال</marker>
                 </example>
@@ -1254,7 +1254,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>بد سیرت</marker>
                 </example>
@@ -1267,7 +1267,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>یکه شناس</marker>
                 </example>
@@ -1280,7 +1280,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>فارغ الاکناف</marker>
                 </example>
@@ -1293,7 +1293,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>نازک نی</marker>
                 </example>
@@ -1306,7 +1306,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>باز خرید</marker>
                 </example>
@@ -1319,7 +1319,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>پری نژاد</marker>
                 </example>
@@ -1332,7 +1332,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>نیک روز</marker>
                 </example>
@@ -1345,7 +1345,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>باد نشسته</marker>
                 </example>
@@ -1358,7 +1358,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>هنر پیشه</marker>
                 </example>
@@ -1371,7 +1371,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>باب الحوائج</marker>
                 </example>
@@ -1384,7 +1384,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>حاضر جواب</marker>
                 </example>
@@ -1397,7 +1397,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>جامع الشرایط</marker>
                 </example>
@@ -1410,7 +1410,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>نگون طشت</marker>
                 </example>
@@ -1423,7 +1423,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>طبقه بندی</marker>
                 </example>
@@ -1436,7 +1436,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>چرب زبان</marker>
                 </example>
@@ -1449,7 +1449,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>زبانه دار</marker>
                 </example>
@@ -1462,7 +1462,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>تند خو</marker>
                 </example>
@@ -1475,7 +1475,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>چابک سوار</marker>
                 </example>
@@ -1488,7 +1488,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>خود سوز</marker>
                 </example>
@@ -1501,7 +1501,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>معظم له</marker>
                 </example>
@@ -1514,7 +1514,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>غیر قابل</marker>
                 </example>
@@ -1527,7 +1527,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>پیش مرگ</marker>
                 </example>
@@ -1540,7 +1540,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>رو سفید</marker>
                 </example>
@@ -1553,7 +1553,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>بزن دررو</marker>
                 </example>
@@ -1566,7 +1566,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>آمد نیامد</marker>
                 </example>
@@ -1579,7 +1579,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>سفید فام</marker>
                 </example>
@@ -1592,7 +1592,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>خونین دل</marker>
                 </example>
@@ -1605,7 +1605,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>فرو نهادن</marker>
                 </example>
@@ -1618,7 +1618,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>پی گم</marker>
                 </example>
@@ -1631,7 +1631,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>کاسه یکی</marker>
                 </example>
@@ -1644,7 +1644,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>همایون فال</marker>
                 </example>
@@ -1657,7 +1657,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>کشتی بان</marker>
                 </example>
@@ -1670,7 +1670,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>دو برجی</marker>
                 </example>
@@ -1683,7 +1683,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>تکه پاره</marker>
                 </example>
@@ -1696,7 +1696,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>اولو الالباب</marker>
                 </example>
@@ -1709,7 +1709,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>دانش آموخته</marker>
                 </example>
@@ -1722,7 +1722,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>بین النهرین</marker>
                 </example>
@@ -1735,7 +1735,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>پیاده روی</marker>
                 </example>
@@ -1748,7 +1748,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>آدم خوار</marker>
                 </example>
@@ -1761,7 +1761,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>آزاد مرد</marker>
                 </example>
@@ -1774,7 +1774,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>نیک فطرت</marker>
                 </example>
@@ -1787,7 +1787,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>قتل عام</marker>
                 </example>
@@ -1800,7 +1800,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>پاچه ورمالیده</marker>
                 </example>
@@ -1813,7 +1813,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>کله معلق</marker>
                 </example>
@@ -1826,7 +1826,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>ایمن سازی</marker>
                 </example>
@@ -1839,7 +1839,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>اولیاء الله</marker>
                 </example>
@@ -1852,7 +1852,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>مادر خوانده</marker>
                 </example>
@@ -1865,7 +1865,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>فراخ کندوری</marker>
                 </example>
@@ -1878,7 +1878,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>چهره نگار</marker>
                 </example>
@@ -1891,7 +1891,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>مستند ساز</marker>
                 </example>
@@ -1904,7 +1904,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>کج نهاد</marker>
                 </example>
@@ -1917,7 +1917,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>کیلو متر</marker>
                 </example>
@@ -1930,7 +1930,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>برگشت پذیر</marker>
                 </example>
@@ -1943,7 +1943,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>خود نویس</marker>
                 </example>
@@ -1956,7 +1956,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>انگشت نما</marker>
                 </example>
@@ -1969,7 +1969,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>بار گذار</marker>
                 </example>
@@ -1982,7 +1982,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>کد خدا</marker>
                 </example>
@@ -1995,7 +1995,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>شیطان پرست</marker>
                 </example>
@@ -2008,7 +2008,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>فرمان روا</marker>
                 </example>
@@ -2021,7 +2021,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>میرزا قلمدان</marker>
                 </example>
@@ -2034,7 +2034,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>بهره برداری</marker>
                 </example>
@@ -2047,7 +2047,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>کینه توز</marker>
                 </example>
@@ -2060,7 +2060,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>دل گشا</marker>
                 </example>
@@ -2073,7 +2073,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>فرا خور</marker>
                 </example>
@@ -2086,7 +2086,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>شب رنگ</marker>
                 </example>
@@ -2099,7 +2099,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>گرم کننده</marker>
                 </example>
@@ -2112,7 +2112,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>جمع آوری</marker>
                 </example>
@@ -2125,7 +2125,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>تن فروش</marker>
                 </example>
@@ -2138,7 +2138,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>فرخ لقا</marker>
                 </example>
@@ -2151,7 +2151,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>ابرو کمان</marker>
                 </example>
@@ -2164,7 +2164,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>فیزیک دان</marker>
                 </example>
@@ -2177,7 +2177,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>بر آورد</marker>
                 </example>
@@ -2190,7 +2190,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>آکنده گوش</marker>
                 </example>
@@ -2203,7 +2203,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>گشاده کار</marker>
                 </example>
@@ -2216,7 +2216,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>ناهم گون</marker>
                 </example>
@@ -2229,7 +2229,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>آش دهن</marker>
                 </example>
@@ -2242,7 +2242,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>دست نویس</marker>
                 </example>
@@ -2255,7 +2255,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>وفا مند</marker>
                 </example>
@@ -2268,7 +2268,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>پا برجا</marker>
                 </example>
@@ -2281,7 +2281,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>ذوات الارحام</marker>
                 </example>
@@ -2294,7 +2294,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>لت لت</marker>
                 </example>
@@ -2307,7 +2307,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>گل گون</marker>
                 </example>
@@ -2320,7 +2320,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>لا ابالی</marker>
                 </example>
@@ -2333,7 +2333,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>پیچ واپیچ</marker>
                 </example>
@@ -2346,7 +2346,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>جان سخت</marker>
                 </example>
@@ -2359,7 +2359,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>ابن الیوم</marker>
                 </example>
@@ -2372,7 +2372,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>شیرین عقل</marker>
                 </example>
@@ -2385,7 +2385,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>خواجه سرا</marker>
                 </example>
@@ -2398,7 +2398,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>ناقاره زن</marker>
                 </example>
@@ -2411,7 +2411,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>گران مغز</marker>
                 </example>
@@ -2424,7 +2424,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازیٔ میان دو کلمه</short>
+                <short>اصلاح فاصلهٔ مجازیٔ میان دو واژه</short>
                 <example type='incorrect'>
                     <marker>کم نظیر</marker>
                 </example>
@@ -2439,7 +2439,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>لحاف کش</marker>
                 </example>
@@ -2452,7 +2452,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>خاله زنک</marker>
                 </example>
@@ -2465,7 +2465,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>بقیة لله</marker>
                 </example>
@@ -2478,7 +2478,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>اندود کاری</marker>
                 </example>
@@ -2491,7 +2491,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>زنگی مزاج</marker>
                 </example>
@@ -2504,7 +2504,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>صف آوار</marker>
                 </example>
@@ -2517,7 +2517,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>طویل المدت</marker>
                 </example>
@@ -2530,7 +2530,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>راست راستکی</marker>
                 </example>
@@ -2543,7 +2543,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>نسل کشی</marker>
                 </example>
@@ -2556,7 +2556,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>چیز فهم</marker>
                 </example>
@@ -2569,7 +2569,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>آلاخون والاخون</marker>
                 </example>
@@ -2582,7 +2582,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>کشتی گیر</marker>
                 </example>
@@ -2595,7 +2595,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>پراگنده دل</marker>
                 </example>
@@ -2608,7 +2608,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>فرنگی مآب</marker>
                 </example>
@@ -2621,7 +2621,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>شوم اختر</marker>
                 </example>
@@ -2634,7 +2634,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>بن بست</marker>
                 </example>
@@ -2647,7 +2647,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>به غایت</marker>
                 </example>
@@ -2660,7 +2660,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>عدیم النظیر</marker>
                 </example>
@@ -2673,7 +2673,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>نظریه پرداز</marker>
                 </example>
@@ -2686,7 +2686,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>جهان بخش</marker>
                 </example>
@@ -2699,7 +2699,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>رویین تن</marker>
                 </example>
@@ -2712,7 +2712,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>رنگا رنگ</marker>
                 </example>
@@ -2725,7 +2725,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>آسیمه سر</marker>
                 </example>
@@ -2738,7 +2738,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>خرد سال</marker>
                 </example>
@@ -2751,7 +2751,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>رسم الخط</marker>
                 </example>
@@ -2764,7 +2764,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>درشت خو</marker>
                 </example>
@@ -2777,7 +2777,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>صد شاخ</marker>
                 </example>
@@ -2790,7 +2790,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>تیره روز</marker>
                 </example>
@@ -2803,7 +2803,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>چهار شانه</marker>
                 </example>
@@ -2816,7 +2816,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>قایم الزاویه</marker>
                 </example>
@@ -2829,7 +2829,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>مالک الرقاب</marker>
                 </example>
@@ -2842,7 +2842,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>ول خرج</marker>
                 </example>
@@ -2855,7 +2855,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>حرف شنو</marker>
                 </example>
@@ -2868,7 +2868,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>عام المنفعه</marker>
                 </example>
@@ -2881,7 +2881,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>شوی دیده</marker>
                 </example>
@@ -2894,7 +2894,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>زود باور</marker>
                 </example>
@@ -2907,7 +2907,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>یکتا پرست</marker>
                 </example>
@@ -2920,7 +2920,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>تنگا تنگ</marker>
                 </example>
@@ -2933,7 +2933,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>تاریک دل</marker>
                 </example>
@@ -2946,7 +2946,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>هرکن پرکن</marker>
                 </example>
@@ -2959,7 +2959,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>رحمت العالمین</marker>
                 </example>
@@ -2972,7 +2972,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>سابقه سالار</marker>
                 </example>
@@ -2985,7 +2985,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>قبة الخضرا</marker>
                 </example>
@@ -2998,7 +2998,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>پاس بخش</marker>
                 </example>
@@ -3011,7 +3011,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>بار خاطر</marker>
                 </example>
@@ -3024,7 +3024,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>جرعه کش</marker>
                 </example>
@@ -3037,7 +3037,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>رنگ وارنگ</marker>
                 </example>
@@ -3050,7 +3050,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>حیرت زده</marker>
                 </example>
@@ -3063,7 +3063,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>چیره دست</marker>
                 </example>
@@ -3076,7 +3076,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>لسان الغیب</marker>
                 </example>
@@ -3089,7 +3089,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>کلاه گوشه</marker>
                 </example>
@@ -3102,7 +3102,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>خود سوز</marker>
                 </example>
@@ -3115,7 +3115,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>ناخن خشک</marker>
                 </example>
@@ -3128,7 +3128,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>نق نقو</marker>
                 </example>
@@ -3141,7 +3141,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>دایم الخمر</marker>
                 </example>
@@ -3154,7 +3154,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>راه اندازی</marker>
                 </example>
@@ -3167,7 +3167,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>ندید بدید</marker>
                 </example>
@@ -3180,7 +3180,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>بلند آوازه</marker>
                 </example>
@@ -3193,7 +3193,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>سابق الذکر</marker>
                 </example>
@@ -3206,7 +3206,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>قافله سالار</marker>
                 </example>
@@ -3219,7 +3219,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>شبانه روزی</marker>
                 </example>
@@ -3232,7 +3232,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>عالی نسب</marker>
                 </example>
@@ -3245,7 +3245,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>طی الارض</marker>
                 </example>
@@ -3258,7 +3258,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>عیال وار</marker>
                 </example>
@@ -3271,7 +3271,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>تی تیش</marker>
                 </example>
@@ -3284,7 +3284,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>سنگ فرش</marker>
                 </example>
@@ -3297,7 +3297,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>گلوله باران</marker>
                 </example>
@@ -3310,7 +3310,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>ویکی پدیا</marker>
                 </example>
@@ -3323,7 +3323,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>غلط غلوط</marker>
                 </example>
@@ -3336,7 +3336,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>زوار دررفته</marker>
                 </example>
@@ -3349,7 +3349,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>اجل برگشته</marker>
                 </example>
@@ -3362,7 +3362,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>حکیم باشی</marker>
                 </example>
@@ -3375,7 +3375,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>ابجد خوان</marker>
                 </example>
@@ -3388,7 +3388,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>مشغول الذمه</marker>
                 </example>
@@ -3401,7 +3401,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>دودوزه باز</marker>
                 </example>
@@ -3414,7 +3414,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>قره قاطی</marker>
                 </example>
@@ -3427,7 +3427,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>دندان گرد</marker>
                 </example>
@@ -3440,7 +3440,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>قوی پنجه</marker>
                 </example>
@@ -3453,7 +3453,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>سخت افزار</marker>
                 </example>
@@ -3466,7 +3466,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>علی البدل</marker>
                 </example>
@@ -3479,7 +3479,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>تنگ چشم</marker>
                 </example>
@@ -3492,7 +3492,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>دم کلفت</marker>
                 </example>
@@ -3505,7 +3505,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>دل افگار</marker>
                 </example>
@@ -3518,7 +3518,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>تام الاختیار</marker>
                 </example>
@@ -3531,7 +3531,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>عقب گرد</marker>
                 </example>
@@ -3544,7 +3544,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>شکم بند</marker>
                 </example>
@@ -3557,7 +3557,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>طوطی وار</marker>
                 </example>
@@ -3570,7 +3570,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>سینه چاک</marker>
                 </example>
@@ -3583,7 +3583,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>ماه طلعت</marker>
                 </example>
@@ -3596,7 +3596,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>آب لمبو</marker>
                 </example>
@@ -3609,7 +3609,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>شلم شوربا</marker>
                 </example>
@@ -3622,7 +3622,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>قریب الوقوع</marker>
                 </example>
@@ -3635,7 +3635,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>ملی گرا</marker>
                 </example>
@@ -3648,7 +3648,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>گردا گرد</marker>
                 </example>
@@ -3661,7 +3661,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>سربه مهر</marker>
                 </example>
@@ -3674,7 +3674,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>آتشین پنجه</marker>
                 </example>
@@ -3687,7 +3687,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>اسفل السافلین</marker>
                 </example>
@@ -3700,7 +3700,7 @@ USA
                 </pattern>
                 <message>آیا منظور شما
                      <suggestion>\1&#8204;\2</suggestion> است؟</message>
-                <short>اصلاح فاصلهٔ مجازی میان کلمهٔ مرکب</short>
+                <short>اصلاح فاصلهٔ مجازی میان واژهٔ مرکب</short>
                 <example type='incorrect'>
                     <marker>ابله گونه</marker>
                 </example>
