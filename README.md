@@ -31,7 +31,6 @@ Licence
 
 Distributed under the terms of the GNU Lesser General Public License (LGPL 2.1).
 
-<div dir="rtl">
 ما واژه‌نامه واژه‌های فارسی (افعال، اسامی، و غیره) را جمع‌آوری می‌کنیم.
 
 واژه‌ها از راه‌های زیر جمع گشته‌اند
@@ -40,8 +39,8 @@ Distributed under the terms of the GNU Lesser General Public License (LGPL 2.1).
 1. صرف‌کردن افعال ساده<sup>[[1]](#صرف_افعال)</sup> بر اساس دستور زبان فارسی
 2. جمع‌آوری واژه‌ها از وب‌گاه‌های زیر
     * https://fa.wikipedia.org (فقط مقاله‌های برگزیده)
-	* خبرگزاری‌ها (فقط واژه‌هایی که بیش از ۱۰ بار در متن روگرفت‌شدهٔ ۳۰۰ مگابایتی تکرار شده‌اند)
-	* دانشنامه معین (فقط واژه‌های کلیدی)
+    * خبرگزاری‌ها (فقط واژه‌هایی که بیش از ۱۰ بار در متن روگرفت‌شدهٔ ۳۰۰ مگابایتی تکرار شده‌اند)
+    * دانشنامه معین (فقط واژه‌های کلیدی)
 
 صرف افعال
 ---------
@@ -61,4 +60,3 @@ Distributed under the terms of the GNU Lesser General Public License (LGPL 2.1).
 ------
 
 توزیع‌شده تحت شرایط GNU Lesser General Public License (LGPL ۲٫۱).
-</div>
