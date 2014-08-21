@@ -116,6 +116,21 @@ USA
             <example type='correct'>رسماً</example>
         </rule>
     </category>
+    <rulegroup id="RemoveAdditionMarks" name="حذف نشانه‌های اضافی">
+        <rule>
+            <pattern>
+                <token regexp='yes'>([۰-۹]+)[٫٬](?![۰-۹])</token>
+                <token></token>
+            </pattern>
+            <message>آیا منظور شما
+                 <suggestion>\1</suggestion> است؟</message>
+            <short>نشانه اضافی را حذف کنید</short>
+            <example type='incorrect'>
+                <marker>۱۹٫ </marker>
+            </example>
+            <example type='correct'>۱۹</example>
+        </rule>
+    </rulegroup>
     <rulegroup id="FixThreeDotsAndSingleDot" name="اصلاح سه نقطه و یک نقطه">
         <rule>
             <pattern>
@@ -173,7 +188,7 @@ USA
         </rule>
         <rule>
             <pattern>
-                <token regexp='yesy'>([۰-۹]+)\.([۰-۹]+)</token>
+                <token regexp='yes'>([۰-۹]+)\.([۰-۹]+)</token>
                 <token></token>
             </pattern>
             <message>آیا منظور شما
@@ -186,7 +201,7 @@ USA
         </rule>
         <rule>
             <pattern>
-                <token regexp='yesy'>,([۰-۹]+)</token>
+                <token regexp='yes'>,([۰-۹]+)</token>
                 <token></token>
             </pattern>
             <message>آیا منظور شما
