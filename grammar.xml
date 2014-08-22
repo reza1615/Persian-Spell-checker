@@ -190,7 +190,7 @@ USA
         </rule>
         <rule>
             <pattern>
-                <token regexp='yes'>,\s</token>
+                <token regexp='yes'>([۰-۹ءآأؤإئابپةتثجحخچدذرزژسشصضطظعغفقكکگلمنهوىیيًٌٍَُِّْ]+),\s</token>
                 <token></token>
             </pattern>
             <message>آیا منظور شما
