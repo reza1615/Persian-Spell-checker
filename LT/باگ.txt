@@ -17,9 +17,3 @@ https://tools.wmflabs.org/languagetool/pageCheck/index?url=%D8%AC%D8%B3%D8%AA%D8
 https://tools.wmflabs.org/languagetool/pageCheck/index?url=%D9%81%D9%87%D8%B1%D8%B3%D8%AA_%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D9%87%D8%A7%DB%8C_%D8%A7%D9%88%D8%A8%D9%88%D9%86%D8%AA%D9%88&lang=fa
 
 ----
-عدم افزودن فاصلهٔ مجازی بعد از حروفی که لازم ندارند مانند؛رزو
-https://github.com/languagetool-org/languagetool/issues/157
-
-پیشنهاد: می توان از 
-regexp_replace
-در متن پیشنهاد استفاده کرد کد گرامر.ایکس‌ام‌ال زبان انگلیسی مثال‌های خوبی دارد.
