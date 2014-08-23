@@ -22,7 +22,7 @@ USA
 
 -->
 <!--suppress CheckTagEmptyBody -->
-<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lang="be" xsi:noNamespaceSchemaLocation="../../../../../../../../../languagetool-core/src/main/resources/org/languagetool/rules/rules.xsd">
+<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lang="fa" xsi:noNamespaceSchemaLocation="../../../../../../../../../languagetool-core/src/main/resources/org/languagetool/rules/rules.xsd">
     <!-- ====================================================================== -->
     <!-- Possible typos -->
     <!-- ====================================================================== -->
