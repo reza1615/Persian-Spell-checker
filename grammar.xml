@@ -117,7 +117,8 @@ USA
             <example type="correct">عجب!</example>
         </rule>
     </category>
-    <category id="RemoveThesePhrases" name="این عبارت‌ها نباید در جمله باشد" type="grammar">
+    <category name="این عبارت‌ها نباید در جمله باشد" type="grammar">
+	<rulegroup id="RemoveThesePhrases" name="این عبارت‌ها نباید در جمله باشد">
         <rule>
             <pattern>
                 <token>عرض</token>
@@ -173,6 +174,7 @@ USA
             </example>
             <example type="correct" />
         </rule>
+		</rulegroup>
     </category>
     <!--<rulegroup id="ReplaceLettersInSameLangs" name="جایگزین‌کردن حروف فارسی جای حروف مشابه در زبان‌های مشابه فارسی" type="characters">
 		<rule>
@@ -301,7 +303,8 @@ USA
             <example type='correct'>است.</example>
         </rule>
     </category>-->
-    <rulegroup id="ReplaceEnglishMarks" name="نشانه‌های فارسی جای نشانه‌های انگلیسی" type="characters">
+	<category name="نشانه‌های فارسی جای نشانه‌های انگلیسی" type="characters">
+    <rulegroup id="ReplaceEnglishMarks" name="نشانه‌های فارسی جای نشانه‌های انگلیسی">
         <rule>
             <pattern>
                 <token>?</token>
@@ -376,6 +379,7 @@ USA
             <example type="correct">۱٬۹۹۹</example>
         </rule>
     </rulegroup>
+	</category>
     <category name="فاصلهٔ مجازی اضافی" type="whitespace">
         <rule id="Bad_ZWNJ_1" name="فاصلهٔ مجازی بعد از کاراکترهایی که لازم ندارند">
             <pattern>
