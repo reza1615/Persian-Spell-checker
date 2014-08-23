@@ -3,7 +3,7 @@
 <?xml-stylesheet type="text/css" href="../../../../../../../../../languagetool-core/src/main/resources/org/languagetool/rules/rules.css" title="Easy editing stylesheet" ?>
 <!--
 Persian Grammar and Typo Rules for LanguageTool
-Copyright (C) 2014 Reza1615
+Copyright (C) 2014 Reza1615, Alireza Eskandarpour Shoferi
 
 This library is free software; you can redistribute it and/or
 modify it under the terms of the GNU Lesser General Public
@@ -117,7 +117,7 @@ USA
             <example type="correct">عجب!</example>
         </rule>
     </category>
-    <rulegroup id="RemoveThesePhrases" name="این عبارت‌ها نباید در جمله باشد" type="grammar">
+    <category id="RemoveThesePhrases" name="این عبارت‌ها نباید در جمله باشد" type="grammar">
         <rule>
             <pattern>
                 <token>عرض</token>
@@ -173,7 +173,7 @@ USA
             </example>
             <example type="correct" />
         </rule>
-    </rulegroup>
+    </category>
     <!--<rulegroup id="ReplaceLettersInSameLangs" name="جایگزین‌کردن حروف فارسی جای حروف مشابه در زبان‌های مشابه فارسی" type="characters">
 		<rule>
             <pattern>
