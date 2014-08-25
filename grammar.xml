@@ -21,10 +21,87 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301
 USA
 -->
 <!--suppress CheckTagEmptyBody -->
-<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lang="be" xsi:noNamespaceSchemaLocation="../../../../../../../../../languagetool-core/src/main/resources/org/languagetool/rules/rules.xsd">
+<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lang="fa" xsi:noNamespaceSchemaLocation="../../../../../../../../../languagetool-core/src/main/resources/org/languagetool/rules/rules.xsd">
     <!-- ====================================================================== -->
     <!-- Possible typos -->
     <!-- ====================================================================== -->
+	<!--<category name="هر حرف فقط یک تنوین می‌پذیرد" type="grammar">
+        <rule id="FixDoubleTanvin" name="هر حرف فقط یک تنوین می‌پذیرد">
+            <pattern>
+                <token regexp="yes" spacebefore="no">([\u0652\u064c\u064d\u064b\u064f\u0650\u064e\u0651]){2,}</token>
+            </pattern>
+            <message>
+                آیا منظور شما
+                <suggestion>\1</suggestion>
+                است؟
+            </message>
+            <short>تنوین اضافی را حذف کنید</short>
+            <example type="incorrect">
+                <marker>رسماًً</marker>
+            </example>
+            <example type="correct">رسماً</example>
+        </rule>
+    </category>-->
+    <!--<category name="حذف نشانه‌های اضافی" type="characters">
+        <rule id="RemoveAdditionMarks" name="حذف نشانه اضافی بین اعداد">
+            <pattern>
+                <token regexp="yes">([۰-۹]+)[٫٬](?![۰-۹])</token>
+            </pattern>
+            <message>
+                آیا منظور شما
+                <suggestion>\1</suggestion>
+                است؟
+            </message>
+            <short>نشانه اضافی را حذف کنید</short>
+            <example type="incorrect">
+                ۱۹<marker>٫</marker>
+            </example>
+            <example type="correct">۱۹</example>
+        </rule>
+    </category>-->
+    <!--<category name="اصلاح سه نقطه و یک نقطه" type="characters">
+        <rule id="FixThreeDots" name="اصلاح سه نقطه">
+            <pattern>
+                <token regexp='yes'>\.{4,}</token>
+            </pattern>
+            <message>آیا منظور شما
+                 <suggestion>...</suggestion> است؟</message>
+            <short>از سه نقطه استفاده کنید</short>
+            <example type='incorrect'>
+                ولی<marker>....</marker>
+            </example>
+            <example type='correct'>ولی...</example>
+        </rule>
+        <rule id="FixSingleDot" name="اصلاح یک نقطه">
+            <pattern>
+                <token regexp='yes'>[^.]\.{2}[^.]</token>
+            </pattern>
+            <message>آیا منظور شما
+                 <suggestion>.</suggestion> است؟</message>
+            <short>از یک نقطه استفاده کنید</short>
+            <example type='incorrect'>
+                است<marker>..</marker>
+            </example>
+            <example type='correct'>است.</example>
+        </rule>
+    </category>-->
+	<!--<category name="حذف فاصله اضافی" type="whitespace">
+        <rule id="RemoveSpaceBeforeMarks" name="حذف فاصله پیش از نشانه‌ها">
+            <pattern>
+                <token regexp="yes" spacebefore="yes">([.،؟!?,])</token>
+            </pattern>
+            <message>
+                آیا منظور شما
+                <suggestion>\1</suggestion>
+                است؟
+            </message>
+            <short>فاصله پیش از نشانه را حذف کنید</short>
+            <example type="incorrect">
+                <marker>چطور ؟</marker>
+            </example>
+            <example type="correct">چطور؟</example>
+        </rule>
+    </category>-->
     <category name="فاصلهٔ مجازی برای افعال استمراری" type="whitespace">
         <!-- Source https://fa.wikipedia.org/wiki/Mediawiki:Gadget-Extra-Editbuttons-Functions.js -->
         <rule id="Complex_Past_Verbs" name="فاصلهٔ مجازی برای افعال گذشته استمراری">
@@ -59,26 +136,7 @@ USA
             </example>
             <example type="correct">می‌ورزند</example>
         </rule>
-    </category><!--
-    <category name="حذف فاصله‌های اضافی" type="whitespace">
-        <rule id="RemoveSpaceBeforeMarks" name="حذف فاصله پیش از نشانه">
-            <pattern>
-                <token regexp="yes">(.)+</token>
-                <token regexp="yes">([\.،؟!])</token>
-                <token />
-            </pattern>
-            <message>
-                آیا منظور شما
-                <suggestion>\1\2</suggestion>
-                است؟
-            </message>
-            <short>فاصله پیش از نشانه را حذف کنید</short>
-            <example type="incorrect">
-                <marker>است .</marker>
-            </example>
-            <example type="correct">است.</example>
-        </rule>
-    </category>-->
+    </category>
     <category name="فاصلهٔ مجازی برای «تر و ترین»" type="whitespace">
         <rule id="Tar_Tarin_Fix" name="فاصلهٔ مجازی برای «تر و ترین»">
             <pattern>
@@ -237,72 +295,7 @@ USA
             </example>
             <example type="correct">واژه‌ها</example>
         </rule>
-    </category><!--
-    <category name="هر حرف فقط یک تنوین می‌پذیرد" type="grammar">
-        <rule id="FixDoubleTanvin" name="هر حرف فقط یک تنوین می‌پذیرد">
-            <pattern>
-                <token />
-                <token regexp="yes">([\u0652\u064c\u064d\u064b\u064f\u0650\u064e\u0651]){2,}</token>
-            </pattern>
-            <message>
-                آیا منظور شما
-                <suggestion>\1\2</suggestion>
-                است؟
-            </message>
-            <short>تنوین اضافی را حذف کنید</short>
-            <example type="incorrect">
-                <marker>رسماًً</marker>
-            </example>
-            <example type="correct">رسماً</example>
-        </rule>
     </category>
-    <category name="حذف نشانه‌های اضافی" type="characters">
-        <rule id="RemoveAdditionMarks" name="حذف نشانه اضافی بین اعداد">
-            <pattern>
-                <token regexp="yes">([۰-۹]+)[٫٬](?![۰-۹])</token>
-                <token />
-            </pattern>
-            <message>
-                آیا منظور شما
-                <suggestion>\1</suggestion>
-                است؟
-            </message>
-            <short>نشانه اضافی را حذف کنید</short>
-            <example type="incorrect">
-                ۱۹
-                <marker>٫</marker>
-            </example>
-            <example type="correct">۱۹</example>
-        </rule>
-    </category>
-    <category name="اصلاح سه نقطه و یک نقطه" type="characters">
-        <rule id="FixThreeDots" name="اصلاح سه نقطه">
-            <pattern>
-                <token regexp='yes'>\.{4,}</token>
-                <token></token>
-            </pattern>
-            <message>آیا منظور شما
-                 <suggestion>...</suggestion> است؟</message>
-            <short>از سه نقطه استفاده کنید</short>
-            <example type='incorrect'>
-                ولی<marker>....</marker>
-            </example>
-            <example type='correct'>ولی...</example>
-        </rule>
-        <rule id="FixSingleDot" name="اصلاح یک نقطه">
-            <pattern>
-                <token regexp='yes'>[^.]\.{2}[^.]</token>
-                <token></token>
-            </pattern>
-            <message>آیا منظور شما
-                 <suggestion>.</suggestion> است؟</message>
-            <short>از یک نقطه استفاده کنید</short>
-            <example type='incorrect'>
-                است<marker>..</marker>
-            </example>
-            <example type='correct'>است.</example>
-        </rule>
-    </category>-->
     <category name="نشانه‌های فارسی جای نشانه‌های انگلیسی" type="characters">
     <rulegroup id="ReplaceEnglishMarks" name="نشانه‌های فارسی جای نشانه‌های انگلیسی">
         <rule>
