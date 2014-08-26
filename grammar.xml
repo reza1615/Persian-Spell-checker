@@ -103,35 +103,6 @@ USA
             </rule>
         </rulegroup>
     </category>
-    <rulegroup id="ReplaceLettersInSameLangs" name="جایگزین‌کردن حروف فارسی جای حروف مشابه در زبان‌های مشابه فارسی" type="characters">
-        <rule>
-             <pattern>
-              <token regexp='yes'>(.*)(ڪ|ﻙ|ﻚ)(.*)</token>
-             </pattern>
-             <message>آیا منظور شما <suggestion><match no="1" regexp_match="(ڪ|ﻙ|ﻚ)" regexp_replace="ک"></match></suggestion> است؟</message>
-             <short>از حروف فارسی استفاده کنید</short>
-             <example type='incorrect'><marker>ڪادو</marker></example>
-             <example type='correct'>کادو</example>
-        </rule>
-        <rule>
-             <pattern>
-              <token regexp='yes'>(.*)(ى|ۍ|ې)(.*)</token>
-             </pattern>
-             <message>آیا منظور شما <suggestion><match no="1" regexp_match="(ى|ۍ|ې)" regexp_replace="ی"></match></suggestion> است؟</message>
-             <short>از حروف فارسی استفاده کنید</short>
-             <example type='incorrect'><marker>ېاور</marker></example>
-             <example type='correct'>یاور</example>
-        </rule>
-        <rule>
-             <pattern>
-              <token regexp='yes'>(.*)(ہ|ە|ھ)(.*)</token>
-             </pattern>
-             <message>آیا منظور شما <suggestion><match no="1" regexp_match="(ہ|ە|ھ)" regexp_replace="ه"></match></suggestion> است؟</message>
-             <short>از حروف فارسی استفاده کنید</short>
-             <example type='incorrect'><marker>ھارون</marker></example>
-             <example type='correct'>هارون</example>
-        </rule>
-    </rulegroup>
     <category name="فاصلهٔ مجازی برای «ها» جمع" type="whitespace">
         <rule id="PluralFix" name="فاصلهٔ مجازی برای «ها»">
             <pattern>
