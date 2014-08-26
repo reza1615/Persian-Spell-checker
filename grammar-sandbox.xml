@@ -2,25 +2,12 @@
 
 عرض کنم که
 به قول معروف
-تا الی
-
-
-#عدم استفاده از عبارت‌های هم معنی
-سن 7 سالگی 
 
 
 لطفا متن خود را اینجا قرار دهید . یا بررسی کنید که این متن را‌ برای دیدن بعضی بعضی از اشکال هایی که ابزار زبان توانسته تشخیس هدد. درباره ی نرم افزارهای بررسی کننده های گرامر چه فکر می کنید؟ لطفا در نظر داشته باشید که آن‌ها بی نقص نمی باشند.‎
 
 
 https://github.com/languagetool-org/languagetool/pull/144#issuecomment-52615766
-
-farsi
-
-https://github.com/languagetool-org/languagetool/blob/master/languagetool-language-modules/fa/src/test/java/org/languagetool/tokenizers/PersianSRXSentenceTokenizerTest.java
-
-english
-
-https://github.com/languagetool-org/languagetool/blob/master/languagetool-language-modules/en/src/test/java/org/languagetool/tokenizers/EnglishSRXSentenceTokenizerTest.java
 
 ----------------
 https://github.com/languagetool-org/languagetool/blob/master/languagetool-language-modules/en/src/main/java/org/languagetool/rules/en/EnglishWordRepeatBeginningRule.java
@@ -30,3 +17,9 @@ https://github.com/languagetool-org/languagetool/blob/master/languagetool-langua
 ---------------
 تذکر برای کلماتی که آ دارند و به صورت ا نوشته شده‌اند مانند ارش
 
+--------------
+ کتاب دستور خط فارسی بخش‎
+املای بعضی از واژه‌ها پیشوندها ، پسوندها‎
+صفحهٔ ۲۱ تا ۲۴
+باید ریجکس شود
+-------------
