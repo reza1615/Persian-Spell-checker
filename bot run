@@ -1,0 +1,7 @@
+export PATH=~/junest/bin:$PATH
+junest
+
+/data/project/project-fa/junest/bin/junest /data/project/project-fa/a.sh
+#!/bin/bash
+cd /data/project/project-fa/lilak/test
+/bin/python3 /data/project/project-fa/lilak/test/dotest.py
